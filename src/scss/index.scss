@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.hoverNavigationElement {
+  position: relative;
+}
+.hoverDiscoverableBox {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid black;
+  flex-direction: column;
+  display: none;
+}
+.hoverNavigationElement:hover .hoverDiscoverableBox {
+  display: flex;
+}

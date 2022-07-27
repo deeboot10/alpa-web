@@ -1,8 +1,9 @@
 import placeholder from "../../img/subHeroImg.png";
+import mainBg from "../../img/mainBg.svg";
 
 function SubHero() {
   return (
-    <section className="subhero">
+    <section className="subhero" style={{ backgroundImage: `url(${mainBg})` }}>
       <div className="img">
         <img src={placeholder} alt="Placeholder" />
       </div>

@@ -16,6 +16,20 @@ function Contact() {
           handleSubmit(e);
         }}
       >
+        <input type="text" name="name" />
+        <input type="text" name="email" />
+        <input type="text" name="phone" />
+        <select name="service">
+          <option value={false} className="placeholderOption">
+            What service are you interested in?
+          </option>
+          <option value="website-design">Website design</option>
+          <option value="seo">Search engine optimization</option>
+          <option value="ppc">Pay per click</option>
+          <option value="maintenance">Maintenance</option>
+          <option value="all">All of the above</option>
+        </select>
+        <textarea name="details" rows={15}></textarea>
         <button type="submit">Send</button>
       </form>
     </section>

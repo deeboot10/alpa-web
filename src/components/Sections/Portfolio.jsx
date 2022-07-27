@@ -10,7 +10,7 @@ function Portfolio() {
   return (
     <section className="portfolio">
       <h2>WEBSITE DESIGN</h2>
-      <p>
+      <p className="paragraph">
         A great website should be both visually appealing and SEO optimized.
         Visitors should be able to interact with the website's useful and
         appealing design, as well as find it using search. In this way, a
@@ -36,7 +36,7 @@ function Portfolio() {
           <img src={web6} alt="Portfolio website 6" />
         </Link>
       </div>
-      <Link to="/portfolio">
+      <Link className="btn-link" to="/portfolio">
         <button>WEBSITE CASE STUDIES & PRICING</button>
       </Link>
     </section>

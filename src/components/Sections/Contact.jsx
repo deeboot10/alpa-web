@@ -16,9 +16,9 @@ function Contact() {
           handleSubmit(e);
         }}
       >
-        <input type="text" name="name" />
-        <input type="text" name="email" />
-        <input type="text" name="phone" />
+        <input placeholder="Name" type="text" name="name" />
+        <input placeholder="Email" type="email" name="email" />
+        <input placeholder="Phone" type="text" name="phone" />
         <select name="service">
           <option value={false} className="placeholderOption">
             What service are you interested in?
@@ -29,8 +29,14 @@ function Contact() {
           <option value="maintenance">Maintenance</option>
           <option value="all">All of the above</option>
         </select>
-        <textarea name="details" rows={15}></textarea>
-        <button type="submit">Send</button>
+        <textarea
+          placeholder="Project Details"
+          name="details"
+          rows={9}
+        ></textarea>
+        <button className="send-btn" type="submit">
+          Send
+        </button>
       </form>
     </section>
   );

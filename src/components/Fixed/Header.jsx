@@ -1,6 +1,7 @@
 import logo from "../../img/logo.svg";
 import HoverNavigationElement from "./HoverNavigationElement";
 import { Link } from "react-router-dom";
+import { BrowserView, MobileView } from "react-device-detect";
 function Header() {
   return (
     <header>
@@ -10,7 +11,7 @@ function Header() {
             <img src={logo} alt="Company logo" />
           </Link>
         </div>
-        <div className="navigation">
+        <BrowserView className="navigation">
           <Link to="/about">About</Link>
           <HoverNavigationElement
             name={"Services"}
@@ -28,7 +29,10 @@ function Header() {
           <Link to="/get-in-touch">
             <button id="get-in-touch-btn">Get in touch</button>
           </Link>
-        </div>
+        </BrowserView>
+        <MobileView className="mobile-menu">
+          <span>MENU</span>
+        </MobileView>
       </div>
     </header>
   );

@@ -25,6 +25,8 @@ section.hero {
     text-decoration: none;
   }
   .secondary-btn {
+    box-shadow: none;
+    padding: 15px;
     font-size: 18px;
     color: #1f1f1f;
     font-weight: normal;
@@ -83,13 +85,16 @@ section.subhero {
 
 section.services {
   // background-size: contain, contain;
-  // background-repeat: unset, no-repeat;
+  background-repeat: no-repeat, repeat;
   // background-position: center, unset;
   padding: 90px 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  justify-content: center;
+  align-items: center;
   .item {
+    max-width: 360px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -132,14 +137,17 @@ section.portfolio {
     margin-bottom: 30px;
   }
   .btn-link {
+    margin-top: 90px;
     button {
-      font-size: 21px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 800;
       color: #333333;
       background-color: white;
       border: none;
-      border-radius: 6px;
-      padding: 21px 42px;
+      padding: 18px 31px;
+    }
+    button:hover {
+      cursor: pointer;
     }
   }
   .grid {
@@ -151,6 +159,151 @@ section.portfolio {
       img {
         max-width: 100%;
       }
+    }
+  }
+}
+
+section.optimization {
+  padding: 90px 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-size: 42px;
+  }
+  .paragraph {
+    font-size: 18px;
+    max-width: 60%;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    .item {
+      background-color: #0038ff;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding: 18px 15px;
+      border-radius: 12px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+  .btn-link {
+    margin-top: 60px;
+    button {
+      background-color: #0038ff;
+      color: white;
+      font-size: 15px;
+      font-weight: 800;
+      border: none;
+      padding: 18px 31px;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+section.audit-report {
+  padding: 90px 60px;
+  display: flex;
+  align-items: center;
+  background-color: #00168b;
+  color: white;
+  h2 {
+    font-size: 33px;
+  }
+  .mini-text {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .paragraph {
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 2;
+    max-width: 90%;
+  }
+  .link-btn {
+    text-decoration: none;
+    button {
+      display: flex;
+      align-items: center;
+      background-color: #0038ff;
+      color: white;
+      font-size: 15px;
+      font-weight: 800;
+      border: none;
+      padding: 18px 31px;
+      img {
+        margin-left: 21px;
+      }
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+section.contact {
+  padding: 90px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  h2 {
+    color: #333333;
+    font-size: 42px;
+  }
+  .paragraph {
+    font-size: 18px;
+    max-width: 60%;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+  form {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 21px;
+    textarea {
+      grid-column: span 2;
+    }
+    input {
+      height: 45px;
+    }
+    option {
+      font-size: 18px;
+    }
+    textarea,
+    input,
+    select {
+      font-family: "Spartan MB";
+      padding: 12px;
+      font-size: 18px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 0;
+    }
+    .placeholderOption {
+      display: none;
+    }
+    .send-btn {
+      font-size: 18px;
+      background-color: #0038ff;
+      color: white;
+      font-weight: 600;
+      border: none;
+      padding: 18px 31px;
+    }
+    .send-btn:hover {
+      cursor: pointer;
     }
   }
 }

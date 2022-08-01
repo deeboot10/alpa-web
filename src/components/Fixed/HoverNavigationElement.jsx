@@ -3,7 +3,6 @@ import arrowDown from "../../img/arrowDown.svg";
 function HoverNavigationElement({ name, url, childrenUrls, childrenNames }) {
   const childernDom = [];
   childrenUrls.forEach((child, i) => {
-    console.log(child, i);
     childernDom.push(
       <Link key={i} to={child}>
         {childrenNames[i]}

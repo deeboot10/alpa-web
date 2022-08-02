@@ -11,8 +11,9 @@ function BannerOne() {
         <Link to="/consultation">
           <button>Free consultation</button>
         </Link>
-        <div className="overlay"></div>
       </div>
+      <div className="overlay"></div>
+      <div className="underlay"></div>
     </section>
   );
 }

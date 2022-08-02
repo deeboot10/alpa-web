@@ -5,6 +5,7 @@ import "./scss/home.scss";
 import "./scss/index.scss";
 import "./scss/about.scss";
 import "./scss/services.scss";
+import "./scss/portfolio.scss";
 import "./firebase-config";
 
 ReactDOM.render(<App />, document.getElementById("root"));

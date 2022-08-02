@@ -3,7 +3,7 @@ import img from "../../../img/servicesImg3.png";
 
 function BannerTwo() {
   return (
-    <section className="banner-two">
+    <section className="banner-two" style={{ backgroundImage: `url(${img})` }}>
       <div className="text">
         <span>Web design and Development</span>
         <h3>We are here to help you grow.</h3>
@@ -19,9 +19,8 @@ function BannerTwo() {
           <button>Free web solutions</button>
         </Link>
       </div>
-      <div className="img">
-        <img src={img} alt="Code" />
-      </div>
+      <div className="overlay"></div>
+      <div className="underlay"></div>
     </section>
   );
 }

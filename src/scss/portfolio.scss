@@ -1,0 +1,121 @@
+.portfolio {
+  padding-top: 90px;
+  .hero {
+    min-height: calc(100vh - 90px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+    .showcase {
+      position: relative;
+      img {
+        max-height: 70vh;
+      }
+      .info {
+        position: absolute;
+        bottom: 30px;
+        left: 15px;
+        backdrop-filter: blur(10px) brightness(80%);
+        color: white;
+        padding: 15px 24px;
+        span {
+          font-size: 21px;
+          font-weight: 800;
+        }
+        h3 {
+          font-size: 21px;
+          color: #0038ff;
+          margin: 9px 0;
+        }
+      }
+    }
+    .text {
+      background-color: #f1f3f7;
+      padding: 15vh 60px;
+      font-size: 30px;
+      span {
+        color: #0038ff;
+      }
+      p {
+        font-size: 21px;
+        font-weight: 600;
+      }
+    }
+  }
+  .our-work {
+    grid-gap: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 90px 60px;
+    .showcase {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 100%;
+      img {
+        width: 100%;
+      }
+      .line {
+        height: 2px;
+        width: 100%;
+        background-color: #0038ff;
+      }
+      .info {
+        position: absolute;
+        bottom: 30px;
+        left: 15px;
+        backdrop-filter: blur(10px) brightness(80%);
+        color: white;
+        padding: 15px 24px;
+        span {
+          font-size: 21px;
+          font-weight: 800;
+        }
+        h3 {
+          font-size: 21px;
+          color: #0038ff;
+          margin: 9px 0;
+        }
+      }
+    }
+  }
+  .work-together {
+    padding: 90px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2 {
+      font-size: 33px;
+      color: #0038ff;
+    }
+    p {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 600;
+    }
+    button.btn-special {
+      margin-top: 30px;
+      border: none;
+      font-size: 45px;
+      font-weight: 800;
+      padding: 21px 42px;
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+      box-shadow: none;
+      background-color: transparent;
+      transition: 600ms;
+    }
+    button.btn-special:hover {
+      background-color: #0038ff;
+      color: white;
+      border-top: 3px solid #0038ff;
+      border-bottom: 3px solid #0038ff;
+      cursor: pointer;
+    }
+  }
+}

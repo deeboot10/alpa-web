@@ -36,13 +36,13 @@ function WebDesignServices() {
               <div className="icon-container">
                 <img src={icon} alt="Illustration" />
               </div>
-              Website Design & Development
+              Branding
             </div>
             <div className="item">
               <div className="icon-container">
                 <img src={icon} alt="Illustration" />
               </div>
-              Website Design & Development
+              Search Engine Optimization (SEO)
             </div>
           </div>
         </div>

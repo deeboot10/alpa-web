@@ -37,15 +37,26 @@
   section.goal-driven {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
     align-items: center;
     justify-content: center;
     padding: 90px 60px;
+    p {
+      font-size: 18px;
+      margin-bottom: 0;
+      line-height: 1.3;
+    }
   }
   section.motto {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 90px 60px;
+    h3 {
+      font-size: 24px;
+      max-width: 60%;
+      text-align: center;
+    }
     button {
       background-color: black;
       color: white;

@@ -1,0 +1,50 @@
+.blog {
+  padding-top: 90px;
+  .hero {
+    min-height: calc(100vh - 90px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+    .showcase {
+      position: relative;
+      img {
+        max-height: 70vh;
+      }
+      .info {
+        position: absolute;
+        bottom: 30px;
+        left: 15px;
+        backdrop-filter: blur(10px) brightness(80%);
+        color: white;
+        max-width: 50%;
+        padding: 15px 24px;
+        span {
+          font-size: 21px;
+          font-weight: 800;
+        }
+        h3 {
+          font-size: 21px;
+          color: #0038ff;
+          margin: 9px 0;
+        }
+        p {
+          font-weight: normal;
+        }
+      }
+    }
+    .text {
+      background-color: #f1f3f7;
+      padding: 15vh 60px;
+      font-size: 30px;
+      span {
+        color: #0038ff;
+      }
+      p {
+        font-size: 21px;
+        font-weight: 600;
+      }
+    }
+  }
+}

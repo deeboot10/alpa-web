@@ -1,12 +1,34 @@
 import bg from "../img/blogImg1.png";
 import { Link } from "react-router-dom";
 import BlogArticle from "../components/Sections/Blog/BlogArticle";
-import blogdata from "../blog/data/blogPostsPage1.json";
-import ReactMarkdown from "react-markdown";
+import blogdata from "../blog/data/blogPosts";
+import { useState } from "react";
 
+const blogKeys = Object.keys(blogdata);
 function Blog() {
-  console.log(blogdata["How we innovate in blooming industry?"]);
+  const [activePage, setActivePage] = useState(0);
 
+  // loading dom articles
+  // show 6 articles per page
+  const blogArticlesDom = [];
+  blogKeys.forEach((key, i) => {
+    console.log(i);
+    const min = activePage * 6;
+    const max = min + 6;
+    if (i < max && i >= min) {
+      blogArticlesDom.push(
+        <BlogArticle
+          img={blogdata[key]["img"]}
+          author={blogdata[key]["author"]}
+          description={blogdata[key]["description"]}
+          key={key}
+          title={blogdata[key]["title"]}
+          url={key}
+          date={blogdata[key]["date"]}
+        ></BlogArticle>
+      );
+    }
+  });
   return (
     <div className="blog">
       <section className="hero">
@@ -28,21 +50,8 @@ function Blog() {
           </div>
         </Link>
       </section>
-      <section className="blog-articles">
-        <BlogArticle
-          title={"WHY DOES THE LOCAL SEO MATTER?"}
-          author={"Elia G"}
-          date={"August 1, 2022."}
-          description={
-            "Local SEO (search engine optimization) refers to optimizing a website to rank for searches that are specific to a particular geographic area. Google automatically prioritizes some search queries to display local results first, or customers may query businesses local to them."
-          }
-        ></BlogArticle>
-      </section>
-      {/* TEST ZONE */}
-      {/* TODO: REMOVE EVERYTHING UNDER THIS */}
-      <ReactMarkdown>
-        {blogdata["How we innovate in blooming industry?"]["markdown"]}
-      </ReactMarkdown>
+      <section className="blog-articles">{blogArticlesDom}</section>
+      <section className="pagination"></section>
     </div>
   );
 }

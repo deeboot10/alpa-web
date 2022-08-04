@@ -35,7 +35,7 @@ function Contact() {
           rows={9}
         ></textarea>
         <button className="send-btn" type="submit">
-          Send
+          SEND REQUEST
         </button>
       </form>
     </section>

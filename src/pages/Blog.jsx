@@ -8,6 +8,10 @@ const blogKeys = Object.keys(blogdata);
 function Blog() {
   const [activePage, setActivePage] = useState(0);
 
+  const handlePageChange = (pageIndex) => {
+    setActivePage(pageIndex);
+  };
+
   // loading dom articles
   // show 6 articles per page
   const blogArticlesDom = [];
@@ -29,6 +33,25 @@ function Blog() {
       );
     }
   });
+
+  // pagination
+  const paginationDom = [];
+  const numberOfPages = Math.ceil(blogKeys.length / 6);
+  for (let i = 0; i < numberOfPages; i++) {
+    paginationDom.push(
+      <button
+        onClick={() => {
+          handlePageChange(i);
+        }}
+        className={`pagination-item ${activePage === i ? "active" : ""}`}
+        key={i}
+      >
+        {i + 1}
+      </button>
+    );
+  }
+  console.log(numberOfPages);
+
   return (
     <div className="blog">
       <section className="hero">
@@ -51,7 +74,7 @@ function Blog() {
         </Link>
       </section>
       <section className="blog-articles">{blogArticlesDom}</section>
-      <section className="pagination"></section>
+      <section className="pagination">{paginationDom}</section>
     </div>
   );
 }

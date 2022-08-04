@@ -53,6 +53,7 @@
     flex-direction: column;
     align-items: center;
     .blog-article {
+      margin-top: 30px;
       display: flex;
       align-items: center;
       .text {
@@ -83,6 +84,29 @@
           max-height: 300px;
         }
       }
+    }
+  }
+  .pagination {
+    padding: 90px 60px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    button {
+      margin-right: 21px;
+      font-size: 21px;
+      border: none;
+      height: 42px;
+      width: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 500px;
+      background-color: white;
+      color: black;
+    }
+    button.active {
+      background-color: #0038ff;
+      color: white;
     }
   }
 }

@@ -8,5 +8,6 @@ import "./scss/about.scss";
 import "./scss/services.scss";
 import "./scss/portfolio.scss";
 import "./scss/blog.scss";
+import "./scss/contact.scss";
 
 ReactDOM.render(<App />, document.getElementById("root"));

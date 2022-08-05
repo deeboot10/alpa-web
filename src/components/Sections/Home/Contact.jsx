@@ -6,7 +6,7 @@ function Contact() {
   return (
     <section className="contact">
       <h2>CONTACT US</h2>
-      <p>
+      <p className="paragraph">
         To get in touch with us, use the form below. We are interested in
         finding out more about you, your business, and how we can contribute to
         your continued growth.

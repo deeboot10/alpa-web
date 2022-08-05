@@ -17,11 +17,19 @@ function Header() {
             name={"Services"}
             url="services"
             childrenNames={[
-              "Web Design",
-              "Search Engine Optimization",
-              "Pay per Click",
+              "Website Design",
+              "Website Development",
+              "Paid Ads Managment",
+              "SEO",
+              "Maintenance",
             ]}
-            childrenUrls={["web-design", "seo", "pay-per-click"]}
+            childrenUrls={[
+              "web-design",
+              "web-development",
+              "ads-menagement",
+              "seo",
+              "maintenance",
+            ]}
           ></HoverNavigationElement>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/blog">Blog</Link>

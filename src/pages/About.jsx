@@ -2,8 +2,10 @@ import arr from "../img/arrRight.svg";
 import arrWhite from "../img/arrRightWhite.svg";
 import { Link } from "react-router-dom";
 import bg from "../img/aboutUsMainBg.png";
-import img1 from "../img/about1.svg";
-import img2 from "../img/about2.svg";
+import img1 from "../img/about1.png";
+import img2 from "../img/about2.png";
+import rectangle from "../img/blue-rectangle.svg";
+import circle from "../img/blue-circle.svg";
 function About() {
   return (
     <div className="about">
@@ -33,12 +35,29 @@ function About() {
           </p>
         </div>
         <div className="img">
-          <img src={img1} alt="Man working at the desk" />
+          <img src={img1} className="main-img" alt="Man working at the desk" />
+          <img
+            className="rectangle rectangle1"
+            src={rectangle}
+            alt="svg rectangle"
+          />
+          <img
+            className="rectangle rectangle2"
+            src={rectangle}
+            alt="svg rectangle"
+          />
+          <img
+            className="rectangle rectangle3"
+            src={rectangle}
+            alt="svg rectangle"
+          />
         </div>
       </section>
       <section className="goal-driven">
         <div className="img">
-          <img src={img2} alt="Man working at the desk" />
+          <img className="main-img" src={img2} alt="Man working at the desk" />
+          <img className="circle circle1" src={circle} alt="svg circle" />
+          <img className="circle circle2" src={circle} alt="svg circle" />
         </div>
         <div className="text">
           <h2>GOAL-DRIVEN ORGANIZATION</h2>

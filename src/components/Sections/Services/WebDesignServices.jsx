@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import icon from "../../../img/servicesIllustration1.svg";
-import img from "../../../img/servicesImg4.svg";
+import img from "../../../img/servicesImg4.png";
+import dots from "../../../img/dots.svg";
+import rectangle from "../../../img/blue-rectangle.svg";
 
 function WebDesignServices() {
   return (
@@ -11,7 +13,23 @@ function WebDesignServices() {
       </div>
       <div className="body">
         <div className="img">
-          <img src={img} alt="Working on laptop" />
+          <img className="main-img" src={img} alt="Working on laptop" />
+          <img
+            className="absolute rectangle1"
+            src={rectangle}
+            alt="svg rectangle"
+          />
+          <img
+            className="absolute rectangle2"
+            src={rectangle}
+            alt="svg rectangle"
+          />
+          <img
+            className="absolute rectangle3"
+            src={rectangle}
+            alt="svg rectangle"
+          />
+          <img className="absolute dots" src={dots} alt="svg dots background" />
         </div>
         <div className="text">
           <p>

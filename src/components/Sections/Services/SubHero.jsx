@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import img1 from "../../../img/servicesImg1.svg";
+import img1 from "../../../img/servicesImg1.png";
+import dots from "../../../img/dots.svg";
 
 function SubHero() {
   return (
@@ -26,7 +27,13 @@ function SubHero() {
         </Link>
       </div>
       <div className="img">
-        <img src={img1} alt="Two people discussing solutions on pc" />
+        <img
+          className="real-img"
+          src={img1}
+          alt="Two people discussing solutions on pc"
+        />
+        <img className="dots" src={dots} alt="Background svg texture" />
+        <img className="dots1" src={dots} alt="Background svg texture" />
       </div>
     </section>
   );

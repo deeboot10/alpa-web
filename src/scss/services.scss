@@ -120,6 +120,28 @@
         font-size: 18px;
       }
     }
+    .img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      .real-img {
+        filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));
+      }
+      .dots {
+        position: absolute;
+        top: 70%;
+        left: -5%;
+        z-index: -1;
+      }
+      .dots1 {
+        height: 60%;
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        z-index: -1;
+      }
+    }
   }
   .banner-one,
   .banner-two {
@@ -297,8 +319,36 @@
       justify-content: center;
       align-items: center;
       .img {
-        img {
+        margin: 30px;
+        position: relative;
+        .main-img {
+          width: 100%;
+          filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));
           max-height: 60vh;
+        }
+        .absolute {
+          position: absolute;
+        }
+        .rectangle1 {
+          height: 80px;
+          top: -35px;
+          left: -35px;
+        }
+        .rectangle2 {
+          height: 80px;
+          bottom: -35px;
+          right: -35px;
+        }
+        .rectangle3 {
+          height: 40px;
+          top: -85px;
+          left: -85px;
+        }
+        .dots {
+          height: 50%;
+          left: -20%;
+          top: 35%;
+          z-index: -1;
         }
       }
       .text {

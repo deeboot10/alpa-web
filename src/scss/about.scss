@@ -1,8 +1,10 @@
-.about {
+.about,
+.seo {
   a {
     text-decoration: none;
   }
-  section.hero {
+  section.hero,
+  .seo-hero {
     margin-top: 90px;
     min-height: 60vh;
     display: flex;

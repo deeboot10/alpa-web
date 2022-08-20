@@ -9,5 +9,7 @@ import "./scss/services.scss";
 import "./scss/portfolio.scss";
 import "./scss/blog.scss";
 import "./scss/contact.scss";
+import "./scss/singleBlog.scss";
+import "./scss/servicesSinglePages.scss";
 
 ReactDOM.render(<App />, document.getElementById("root"));

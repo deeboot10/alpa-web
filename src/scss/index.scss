@@ -2,19 +2,16 @@
   font-family: "Spartan MB";
   src: url("../fonts/SpartanMB-Regular.otf") format("truetype");
   font-weight: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: "Spartan MB";
   src: url("../fonts/SpartanMB-SemiBold.otf") format("truetype");
   font-weight: 600;
-  font-display: swap;
 }
 @font-face {
   font-family: "Spartan MB";
   src: url("../fonts/SpartanMB-ExtraBold.otf") format("truetype");
   font-weight: 800;
-  font-display: swap;
 }
 body {
   margin: 0;
@@ -51,13 +48,15 @@ header {
   justify-content: center;
   z-index: 999;
   .content {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 1400px;
     flex-grow: 1;
     padding: 0 30px;
     .navigation {
+      grid-column: span 2;
       flex-grow: 1;
       padding: 0 42px;
       display: flex;

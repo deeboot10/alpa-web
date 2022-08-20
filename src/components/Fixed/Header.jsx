@@ -19,14 +19,14 @@ function Header() {
             childrenNames={[
               "Website Design",
               "Website Development",
-              "Paid Ads Managment",
+              "E-Commerce",
               "SEO",
               "Maintenance",
             ]}
             childrenUrls={[
               "web-design",
               "web-development",
-              "ads-menagement",
+              "e-commerce",
               "seo",
               "maintenance",
             ]}

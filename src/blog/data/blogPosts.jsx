@@ -4,7 +4,7 @@ const blogData = {
   "how-we-innovate-in-blooming-industry": {
     title: "How we innovate in blooming industry",
     description:
-      "Lorem ipsum sir dolor amet, Lorem ipsum sir dolor amet. Lorem ipsum sir dolor amet, Lorem ipsum sir dolor ametLorem ipsum sir dolor amet, Lorem ipsum sir dolor amet. Lorem ipsum sir dolor amet, Lorem ipsum sir dolor amet.Lorem ipsum sir dolor amet, Lorem ipsum sir dolor amet. Lorem ipsum sir dolor amet, Lorem ipsum sir dolor amet.Lorem ipsum sir dolor amet, Lorem ipsum sir.",
+      "r dolor amet. Lorem ipsum sir dolor amet, Lorem ipsum sir dolor amet.Lorem ipsum sir dolor amet, Lorem ipsum sir dolor amet. Lorem ipsum sir dolor amet, Lorem ipsum sir dolor amet.Lorem ipsum sir dolor amet, Lorem ipsum sir.",
     author: "Elia G",
     img: placeholder,
     date: "August 8th, 2022.",

@@ -8,6 +8,10 @@ import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import SingleBlog from "./pages/SingleBlog";
 import ContactPage from "./pages/ContactPage";
+import WebDesign from "./pages/WebDesign";
+import WebDevelopment from "./pages/WebDevelopment";
+import ECommerce from "./pages/ECommerce";
+import Seo from "./pages/Seo";
 function App() {
   return (
     <>
@@ -21,6 +25,10 @@ function App() {
           <Route path="/blog" element={<Blog />}></Route>
           <Route path="/blog/:blogKey" element={<SingleBlog />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
+          <Route path="/web-development" element={<WebDevelopment />}></Route>
+          <Route path="/web-design" element={<WebDesign />}></Route>
+          <Route path="/seo" element={<Seo />}></Route>
+          <Route path="/e-commerce" element={<ECommerce />}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

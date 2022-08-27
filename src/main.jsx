@@ -11,5 +11,6 @@ import "./scss/blog.scss";
 import "./scss/contact.scss";
 import "./scss/singleBlog.scss";
 import "./scss/servicesSinglePages.scss";
+import "./scss/mobile.scss";
 
 ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,5 +1,6 @@
 .seo,
-.web-design {
+.web-design,
+.e-commerce {
   .web-design-hero {
     margin-top: 0;
   }
@@ -41,5 +42,14 @@
         margin-left: 30px;
       }
     }
+  }
+}
+
+.e-commerce {
+  section.hero {
+    margin-top: 0;
+    text-align: center;
+    padding-right: 12px;
+    padding-left: 12px;
   }
 }

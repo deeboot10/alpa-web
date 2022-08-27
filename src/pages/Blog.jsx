@@ -2,14 +2,16 @@ import bg from "../img/blogImg1.png";
 import { Link } from "react-router-dom";
 import BlogArticle from "../components/Sections/Blog/BlogArticle";
 import blogdata from "../blog/data/blogPosts";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const blogKeys = Object.keys(blogdata);
 function Blog() {
   const [activePage, setActivePage] = useState(0);
+  const blogRef = useRef();
 
   const handlePageChange = (pageIndex) => {
     setActivePage(pageIndex);
+    window.scrollTo(0, blogRef.current.offsetTop);
   };
 
   // loading dom articles
@@ -73,7 +75,9 @@ function Blog() {
           </div>
         </Link>
       </section>
-      <section className="blog-articles">{blogArticlesDom}</section>
+      <section className="blog-articles" ref={blogRef}>
+        {blogArticlesDom}
+      </section>
       <section className="pagination">{paginationDom}</section>
     </div>
   );

@@ -1,9 +1,13 @@
+import { isMobile } from "react-device-detect";
 import { Link } from "react-router-dom";
 import img from "../../../img/servicesImg2.png";
 
 function BannerOne() {
   return (
-    <section className="banner-one" style={{ backgroundImage: `url(${img})` }}>
+    <section
+      className="banner-one"
+      style={{ backgroundImage: `${isMobile ? "" : "url(" + img + ")"}` }}
+    >
       <div className="text">
         <span>GETTING MORE LEADS DOESN'T HAVE TO BE HARD</span>
         <h3>We are here to help you grow.</h3>

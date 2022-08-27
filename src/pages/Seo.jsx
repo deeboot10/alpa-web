@@ -6,7 +6,7 @@ import dots from "../img/dots.svg";
 import img from "../img/servicesImg2.png";
 import img2 from "../img/servicesImg3.png";
 import icon1 from "../img/servicesIllustration1.svg";
-
+import { isMobile } from "react-device-detect";
 function Seo() {
   return (
     <div className="seo">
@@ -53,7 +53,7 @@ function Seo() {
       </section>
       <section
         className="banner-one"
-        style={{ backgroundImage: `url(${img})` }}
+        style={{ backgroundImage: `${isMobile ? "" : "url(" + img + ")"}` }}
       >
         <div className="text">
           <span>GETTING MORE LEADS DOESN'T HAVE TO BE HARD</span>
@@ -195,7 +195,7 @@ function Seo() {
       </section>
       <section
         className="banner-two"
-        style={{ backgroundImage: `url(${img2})` }}
+        style={{ backgroundImage: `${isMobile ? "" : "url(" + img2 + ")"}` }}
       >
         <div className="text">
           <span>Web design and Development</span>

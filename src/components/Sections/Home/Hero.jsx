@@ -26,7 +26,7 @@ function Hero() {
         </p>
         <div className="buttons">
           <Link to="get-in-touch">
-            <button className="primary-btn">Get a free SEO consultation</button>
+            <button className="primary-btn">Free SEO consultation</button>
           </Link>
           <Link to="get-started" className="second-btn">
             <button className="secondary-btn">

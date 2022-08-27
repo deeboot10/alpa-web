@@ -5,7 +5,6 @@ import web4 from "../../../img/portfolioExample4.png";
 import web5 from "../../../img/portfolioExample5.png";
 import web6 from "../../../img/portfolioExample6.png";
 import { Link } from "react-router-dom";
-
 function Portfolio() {
   return (
     <section className="portfolio">
@@ -17,24 +16,24 @@ function Portfolio() {
         website visitor is transformed into a lead.
       </p>
       <div className="grid">
-        <Link to="/portfolio/website1">
+        <div>
           <img src={web1} alt="Portfolio website 1" />
-        </Link>
-        <Link to="/portfolio/website2">
+        </div>
+        <div>
           <img src={web2} alt="Portfolio website 2" />
-        </Link>
-        <Link to="/portfolio/website3">
+        </div>
+        <div>
           <img src={web3} alt="Portfolio website 3" />
-        </Link>
-        <Link to="/portfolio/website4">
+        </div>
+        <div>
           <img src={web4} alt="Portfolio website 4" />
-        </Link>
-        <Link to="/portfolio/website5">
+        </div>
+        <div>
           <img src={web5} alt="Portfolio website 5" />
-        </Link>
-        <Link to="/portfolio/website6">
+        </div>
+        <div>
           <img src={web6} alt="Portfolio website 6" />
-        </Link>
+        </div>
       </div>
       <Link className="btn-link" to="/portfolio">
         <button>WEBSITE CASE STUDIES & PRICING</button>

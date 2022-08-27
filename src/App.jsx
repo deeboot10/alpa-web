@@ -12,9 +12,10 @@ import WebDesign from "./pages/WebDesign";
 import WebDevelopment from "./pages/WebDevelopment";
 import ECommerce from "./pages/ECommerce";
 import Seo from "./pages/Seo";
+import { isMobile } from "react-device-detect";
 function App() {
   return (
-    <>
+    <div className={isMobile ? "mobile" : ""}>
       <BrowserRouter>
         <Header></Header>
         <Routes>
@@ -32,7 +33,7 @@ function App() {
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

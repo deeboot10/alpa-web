@@ -6,6 +6,7 @@ import img1 from "../img/about1.png";
 import img2 from "../img/about2.png";
 import rectangle from "../img/blue-rectangle.svg";
 import circle from "../img/blue-circle.svg";
+import { MobileView, BrowserView } from "react-device-detect";
 function About() {
   return (
     <div className="about">
@@ -54,11 +55,11 @@ function About() {
         </div>
       </section>
       <section className="goal-driven">
-        <div className="img">
+        <BrowserView className="img">
           <img className="main-img" src={img2} alt="Man working at the desk" />
           <img className="circle circle1" src={circle} alt="svg circle" />
           <img className="circle circle2" src={circle} alt="svg circle" />
-        </div>
+        </BrowserView>
         <div className="text">
           <h2>GOAL-DRIVEN ORGANIZATION</h2>
           <p>
@@ -80,6 +81,11 @@ function About() {
             technologies.
           </p>
         </div>
+        <MobileView className="img">
+          <img className="main-img" src={img2} alt="Man working at the desk" />
+          <img className="circle circle1" src={circle} alt="svg circle" />
+          <img className="circle circle2" src={circle} alt="svg circle" />
+        </MobileView>
       </section>
       <section className="motto">
         <h3>

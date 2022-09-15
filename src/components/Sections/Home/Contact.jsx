@@ -1,6 +1,29 @@
+import { useState } from "react";
+import { useRef } from "react";
+import loader from "../../../img/loader.svg";
+import emailjs from "@emailjs/browser";
+
 function Contact() {
+  const [state, setState] = useState(null);
+  const formRef = useRef();
+
   const handleSubmit = (e) => {
-    console.log("hello world");
+    e.preventDefault();
+
+    setState("loading");
+    emailjs
+      .sendForm(
+        "service_wpuo1bk",
+        "template_tzf68tc",
+        formRef.current,
+        "Uy3wG2Sl_aOafhjix"
+      )
+      .then((res) => {
+        setState("success");
+      })
+      .catch((err) => {
+        setState("error");
+      });
   };
 
   return (
@@ -15,6 +38,7 @@ function Contact() {
         onSubmit={(e) => {
           handleSubmit(e);
         }}
+        ref={formRef}
       >
         <input placeholder="Name" type="text" name="name" />
         <input placeholder="Email" type="email" name="email" />
@@ -28,15 +52,31 @@ function Contact() {
           <option value="ppc">Pay per click</option>
           <option value="maintenance">Maintenance</option>
           <option value="all">All of the above</option>
+          <option value="something-else">Something else</option>
         </select>
         <textarea
           placeholder="Project Details"
-          name="details"
+          name="message"
           rows={9}
         ></textarea>
-        <button className="send-btn" type="submit">
-          SEND REQUEST
-        </button>
+        {state === "error" && (
+          <div className="error">❌ Something went wrong.</div>
+        )}
+        {state === "success" && (
+          <div className="success">
+            ✔ Your message has been sent successfully.
+          </div>
+        )}
+        {state === "loading" && (
+          <div className="loader">
+            <img src={loader} alt="Loader" />
+          </div>
+        )}
+        {(!state || state === "error") && (
+          <button className="send-btn" type="submit">
+            SEND REQUEST
+          </button>
+        )}
       </form>
     </section>
   );

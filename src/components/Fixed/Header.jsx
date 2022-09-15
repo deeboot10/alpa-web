@@ -56,7 +56,7 @@ function Header() {
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/contact">Contact</Link>
-          <Link to="/get-in-touch">
+          <Link to="/contact">
             <button id="get-in-touch-btn">Get in touch</button>
           </Link>
         </BrowserView>
@@ -104,7 +104,7 @@ function Header() {
         <Link onClick={handleChangeUrl} to="/contact">
           Contact
         </Link>
-        <Link onClick={handleChangeUrl} to="/get-in-touch">
+        <Link onClick={handleChangeUrl} to="/contact">
           <button className="get-in-touch-btn">Get in touch</button>
         </Link>
       </MobileView>

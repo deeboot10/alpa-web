@@ -26,10 +26,13 @@ function App() {
           <Route path="/blog" element={<Blog />}></Route>
           <Route path="/blog/:blogKey" element={<SingleBlog />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
-          <Route path="/web-development" element={<WebDevelopment />}></Route>
-          <Route path="/web-design" element={<WebDesign />}></Route>
-          <Route path="/seo" element={<Seo />}></Route>
-          <Route path="/e-commerce" element={<ECommerce />}></Route>
+          <Route
+            path="/services/web-development"
+            element={<WebDevelopment />}
+          ></Route>
+          <Route path="/services/web-design" element={<WebDesign />}></Route>
+          <Route path="/services/seo" element={<Seo />}></Route>
+          <Route path="/services/e-commerce" element={<ECommerce />}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

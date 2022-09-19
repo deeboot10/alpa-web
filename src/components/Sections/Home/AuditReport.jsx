@@ -14,7 +14,7 @@ function AuditReport() {
           understand how your site can deliver the most impact for your
           business.
         </p>
-        <Link className="link-btn" to="/seo">
+        <Link className="link-btn" to="/contact">
           <button>
             GET MORE LEADS WITH SEO{" "}
             <img src={arrow} alt="Arrow pointing to the right" />

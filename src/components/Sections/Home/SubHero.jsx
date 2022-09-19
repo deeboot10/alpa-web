@@ -1,4 +1,7 @@
 import avatar from "../../../img/avatar-review.png";
+import avatar1 from "../../../img/face1.png";
+import avatar2 from "../../../img/face2.png";
+import avatar3 from "../../../img/face3.png";
 import left from "../../../img/left-blue-arr.svg";
 import right from "../../../img/right-blue-arr.svg";
 import star from "../../../img/star-svg.svg";
@@ -42,10 +45,27 @@ function SubHero() {
           <img src={right} alt="Right arrow" />
         </button>
       </div>
+
       <div className="comments" style={{ left: `-${activeSlide * 100}%` }}>
         <div className="comment">
-          <img src={avatar} alt="Avatar" />
-          <span>John Dick 1</span>
+          <img className="avatar" src={avatar3} alt="Avatar" />
+          <span>Okawa Hiroshi</span>
+          <div className="stars">
+            <img src={star} alt="Illustration of a star" />
+            <img src={star} alt="Illustration of a star" />
+            <img src={star} alt="Illustration of a star" />
+            <img src={star} alt="Illustration of a star" />
+            <img src={star} alt="Illustration of a star" />
+          </div>
+          <p>
+            “I couldn't help but feel thankful that I came across such
+            enthusiastic, young team. Done the work with such brilliance and
+            care for details. All that for reasonable price.”
+          </p>
+        </div>
+        <div className="comment">
+          <img className="avatar" src={avatar1} alt="Avatar" />
+          <span>Martin Perkins</span>
           <div className="stars">
             <img src={star} alt="Illustration of a star" />
             <img src={star} alt="Illustration of a star" />
@@ -59,8 +79,8 @@ function SubHero() {
           </p>
         </div>
         <div className="comment">
-          <img src={avatar} alt="Avatar" />
-          <span>John Dick 2</span>
+          <img className="avatar" src={avatar2} alt="Avatar" />
+          <span>Madeline Schwartz</span>
           <div className="stars">
             <img src={star} alt="Illustration of a star" />
             <img src={star} alt="Illustration of a star" />
@@ -69,23 +89,8 @@ function SubHero() {
             <img src={star} alt="Illustration of a star" />
           </div>
           <p>
-            “Alpa Digital did an amazing job with website for my agency, I would
-            defenetly work with them again.”
-          </p>
-        </div>
-        <div className="comment">
-          <img src={avatar} alt="Avatar" />
-          <span>John Dick 3</span>
-          <div className="stars">
-            <img src={star} alt="Illustration of a star" />
-            <img src={star} alt="Illustration of a star" />
-            <img src={star} alt="Illustration of a star" />
-            <img src={star} alt="Illustration of a star" />
-            <img src={star} alt="Illustration of a star" />
-          </div>
-          <p>
-            “Alpa Digital did an amazing job with website for my agency, I would
-            defenetly work with them again.”
+            “The thing that amazes me about Alpa Digital is their will to put
+            their hearth and soul in every project.”
           </p>
         </div>
       </div>

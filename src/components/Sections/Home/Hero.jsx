@@ -7,7 +7,7 @@ function Hero() {
   return (
     <section className="hero" style={{ backgroundImage: `url(${mainBg})` }}>
       <div className="text">
-        <Link to="get-in-touch">
+        <Link to="/contact">
           <button className="secondary-btn">
             Get a free audit{" "}
             <img
@@ -20,15 +20,15 @@ function Hero() {
           Agency that <br /> generates more <br /> <span>leads for you.</span>
         </h1>
         <p className="paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco
+          It is our goal to never do things just to get them done, our main
+          source of inspiration are good deeds do along the way. That is how our
+          products stand out
         </p>
         <div className="buttons">
-          <Link to="get-in-touch">
+          <Link to="/contact">
             <button className="primary-btn">Free SEO consultation</button>
           </Link>
-          <Link to="get-started" className="second-btn">
+          <Link to="/contact" className="second-btn">
             <button className="secondary-btn">
               Get started
               <img

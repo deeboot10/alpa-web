@@ -25,7 +25,7 @@ function Services() {
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate
         </p>
-        <Link to="/services/website-design">
+        <Link to="/services/web-design">
           <img src={arr} className="icon2" alt="Arrow pointing to the right" />
         </Link>
       </div>
@@ -39,13 +39,13 @@ function Services() {
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate
         </p>
-        <Link to="/services/website-design">
+        <Link to="/services/seo">
           <img src={arr} className="icon2" alt="Arrow pointing to the right" />
         </Link>
       </div>
       <div className="item">
         <img src={icon3} className="icon1" alt="Design illustration" />
-        <h3>PAY PER CLICK</h3>
+        <h3>E-COMMERCE</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -53,7 +53,7 @@ function Services() {
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate
         </p>
-        <Link to="/services/website-design">
+        <Link to="/services/e-commerce">
           <img src={arr} className="icon2" alt="Arrow pointing to the right" />
         </Link>
       </div>
@@ -67,7 +67,7 @@ function Services() {
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate
         </p>
-        <Link to="/services/website-design">
+        <Link to="/services/seo">
           <img src={arr} className="icon2" alt="Arrow pointing to the right" />
         </Link>
       </div>

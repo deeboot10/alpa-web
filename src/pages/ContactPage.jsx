@@ -4,7 +4,7 @@ function ContactPage() {
   return (
     <div className="contact-page home about">
       <section className="hero" style={{ backgroundImage: `url(${bg})` }}>
-        <h1>Let's work together!</h1>
+        <h1>LET'S WORK TOGETHER!</h1>
         <p>Need a quote on a re-design or a new project?</p>
         <p>Give us a bit of detailon your project and let us help!</p>
         <span>

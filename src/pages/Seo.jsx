@@ -6,6 +6,8 @@ import dots from "../img/dots.svg";
 import img from "../img/servicesImg2.png";
 import img2 from "../img/servicesImg3.png";
 import icon1 from "../img/servicesIllustration1.svg";
+import WorkTogether from "../components/Fixed/WorkTogether";
+import AllServices from "../components/Sections/Services/AllServices";
 import { isMobile } from "react-device-detect";
 function Seo() {
   return (
@@ -66,133 +68,7 @@ function Seo() {
         <div className="overlay"></div>
         <div className="underlay"></div>
       </section>
-      <section className="all-services">
-        <div className="head">
-          <span>OUR WEB DESIGN SERVICES</span>
-          <h2>How can we help you?</h2>
-        </div>
-        <div className="grid">
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="navigate">
-          <div className="text">
-            <span>CONTACT US FOR</span>
-            <br />
-            <span>GROWTH OF YOUR ONLINE BRAND</span>
-          </div>
-          <div className="buttons">
-            <Link to="/contact">
-              <button className="primary-btn">Contact Us</button>
-            </Link>
-            <Link to="/portfolio">
-              <button className="secondary-btn">Portfolio</button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <AllServices></AllServices>
       <section
         className="banner-two"
         style={{ backgroundImage: `${isMobile ? "" : "url(" + img2 + ")"}` }}
@@ -215,16 +91,8 @@ function Seo() {
         <div className="overlay"></div>
         <div className="underlay"></div>
       </section>
-      <section className="work-together">
-        <h2>Let's Work Together!</h2>
-        <p>
-          Need a quote on a re-design or a new project? Give us a bit of detail
-        </p>
-        <p>on your project and let us help!</p>
-        <Link to="/get-started">
-          <button className="btn-special">START A PROJECT</button>
-        </Link>
-      </section>
+      <WorkTogether></WorkTogether>
+
       <div className="navigate">
         <div className="text">
           <span>CONTACT US FOR</span>

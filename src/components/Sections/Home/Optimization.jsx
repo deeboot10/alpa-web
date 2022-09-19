@@ -19,9 +19,6 @@ function Optimization() {
             Off-page SEO refers to SEO factors and strategies focused on
             promoting your site or brand around the web.
           </p>
-          <Link to="/seo/on-page-and-off-page">
-            <img src={arr} alt="Arrow pointing to the right" />
-          </Link>
         </div>
         <div className="item">
           <h3>LOCAL SEO</h3>
@@ -31,9 +28,6 @@ function Optimization() {
             business that has a physical location or serves a geographic area
             can benefit from local SEO.
           </p>
-          <Link to="/seo/local-seo">
-            <img src={arr} alt="Arrow pointing to the right" />
-          </Link>
         </div>
         <div className="item">
           <h3>BUILDING AUTHORITY</h3>
@@ -42,9 +36,6 @@ function Optimization() {
             increases your search engine ranking. Having a good number of links
             to a website indicates that the content is there is valuable.
           </p>
-          <Link to="/seo/building-authority">
-            <img src={arr} alt="Arrow pointing to the right" />
-          </Link>
         </div>
         <div className="item">
           <h3>TECHNICAL SEO</h3>
@@ -54,9 +45,6 @@ function Optimization() {
             Making a website faster, easier to crawl and understandable for
             search engines are the pillars of technical optimization.
           </p>
-          <Link to="/seo/technical-seo">
-            <img src={arr} alt="Arrow pointing to the right" />
-          </Link>
         </div>
       </div>
       <Link className="btn-link" to="/seo">

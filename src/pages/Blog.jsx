@@ -59,9 +59,9 @@ function Blog() {
       <section className="hero">
         <div className="text">
           <h1>
-            Our <span>Website Design</span> Portfolio
+            Our <span>Blog</span>
           </h1>
-          <p>Our work doesn't just look good. It is a first step forward.</p>
+          <p>Read our stories and learn more about our creative process.</p>
         </div>
         <Link to="/blog/local-seo" className="showcase">
           <img src={bg} alt="Placeholder immage for blog article" />

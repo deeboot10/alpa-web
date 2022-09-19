@@ -2,6 +2,7 @@ import arr from "../img/arrRight.svg";
 import arrWhite from "../img/arrRightWhite.svg";
 import { Link } from "react-router-dom";
 import bg from "../img/aboutUsMainBg.png";
+import WorkTogether from "../components/Fixed/WorkTogether";
 function ECommerce() {
   return (
     <div className="e-commerce">
@@ -14,16 +15,7 @@ function ECommerce() {
           </button>
         </Link>
       </section>
-      <section className="work-together">
-        <h2>Let's Work Together!</h2>
-        <p>
-          Need a quote on a re-design or a new project? Give us a bit of detail
-        </p>
-        <p>on your project and let us help!</p>
-        <Link to="/get-started">
-          <button className="btn-special">START A PROJECT</button>
-        </Link>
-      </section>
+      <WorkTogether></WorkTogether>
       <div className="navigate">
         <div className="text">
           <span>CONTACT US FOR</span>

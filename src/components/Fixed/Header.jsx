@@ -42,14 +42,12 @@ function Header() {
               "Website Development",
               "E-Commerce",
               "SEO",
-              "Maintenance",
             ]}
             childrenUrls={[
               "web-design",
               "web-development",
               "e-commerce",
               "seo",
-              "maintenance",
             ]}
             setMenu={setMobileMenu}
           ></HoverNavigationElement>
@@ -85,15 +83,8 @@ function Header() {
             "Website Development",
             "E-Commerce",
             "SEO",
-            "Maintenance",
           ]}
-          childrenUrls={[
-            "web-design",
-            "web-development",
-            "e-commerce",
-            "seo",
-            "maintenance",
-          ]}
+          childrenUrls={["web-design", "web-development", "e-commerce", "seo"]}
         ></HoverNavigationElement>
         <Link onClick={handleChangeUrl} to="/portfolio">
           Portfolio

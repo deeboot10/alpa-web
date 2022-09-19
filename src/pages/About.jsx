@@ -13,7 +13,7 @@ function About() {
       <section className="hero" style={{ backgroundImage: `url(${bg})` }}>
         <span>Agency that works with You</span>
         <h1>About Us</h1>
-        <Link to="get-started">
+        <Link to="/contact">
           <button className="white-btn">
             Get Started <img src={arr} alt="Arrow pointing to right"></img>
           </button>
@@ -92,7 +92,7 @@ function About() {
           We are problem solvers, and we strive every day to offer solutions
           that will advance your company.
         </h3>
-        <Link to="get-started">
+        <Link to="/contact">
           <button className="black-btn">
             Get Started <img src={arrWhite} alt="Arrow pointing to right"></img>
           </button>

@@ -14,7 +14,7 @@
   font-weight: 800;
 }
 body {
-  transition: 300ms;
+  overflow-x: hidden;
   margin: 0;
   font-family: "Spartan MB";
   h1,
@@ -35,6 +35,35 @@ button {
 }
 button:hover {
   cursor: pointer;
+}
+//animation on hover underline
+header,
+footer {
+  a:after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: rgb(0, 0, 0);
+    transition: 300ms;
+  }
+  a:hover:after {
+    width: 100%;
+  }
+}
+header {
+  a:last-child:after {
+    display: none;
+  }
+}
+footer {
+  .item {
+    align-items: flex-start;
+  }
+  a:after {
+    height: 1px;
+    background-color: white;
+  }
 }
 
 header {
@@ -72,6 +101,9 @@ header {
             margin-left: 9px;
             height: 10px;
           }
+        }
+        a:after {
+          display: none;
         }
       }
       .hoverDiscoverableBox {

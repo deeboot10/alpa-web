@@ -17,9 +17,9 @@ function Footer() {
         </div>
         <div className="item">
           <h3>SERVICES</h3>
-          <Link to="/website-design">Website design</Link>
-          <Link to="/seo">Search Engine Optimization</Link>
-          <Link to="/pay-per-click">Pay Per Click</Link>
+          <Link to="/services/website-design">Website design</Link>
+          <Link to="/services/seo">Search Engine Optimization</Link>
+          <Link to="/services/e-commerce">E Commerce</Link>
         </div>
         <div className="item">
           <h3>CONTACT</h3>

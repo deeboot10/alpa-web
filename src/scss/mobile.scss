@@ -18,6 +18,7 @@
       padding: 39px 21px;
       box-sizing: border-box;
       display: flex;
+      align-items: flex-start;
       flex-direction: column;
       position: absolute;
       top: 0;
@@ -38,6 +39,9 @@
         text-decoration: none;
         font-size: 18px;
       }
+      a:after {
+        background-color: white;
+      }
       .get-in-touch-btn {
         background-color: white;
         box-shadow: none;
@@ -48,6 +52,7 @@
         border-radius: 6px;
       }
       .close-btn {
+        align-self: flex-end;
         background-color: transparent;
         display: flex;
         justify-content: flex-end;
@@ -154,6 +159,9 @@
         width: 100%;
         text-align: center;
       }
+      p {
+        max-width: 100%;
+      }
       .img {
         margin: 60px 0;
         width: 90%;
@@ -168,9 +176,13 @@
         max-width: 90%;
       }
       form {
+        grid-gap: 0;
         input,
         select,
-        button {
+        button,
+        textarea {
+          margin-top: 20px;
+          width: 100%;
           grid-column: span 4;
         }
       }
@@ -210,6 +222,28 @@
       button {
         border: none;
       }
+    }
+  }
+  .services,
+  .web-design,
+  .seo,
+  .e-commerce {
+    .hero,
+    .web-design-hero {
+      .items {
+        display: none;
+      }
+    }
+    .sub-hero {
+      grid-template-columns: 1fr;
+      padding: 60px 30px;
+    }
+  }
+  .web-design,
+  .services {
+    .sub-hero {
+      margin-top: 0;
+      padding-top: 0;
     }
   }
   .items {
@@ -370,6 +404,30 @@
       grid-template-columns: 1fr;
       .blog-article {
         flex-direction: column;
+      }
+    }
+  }
+  section.contact {
+    .success,
+    .error {
+      margin-top: 20px;
+      grid-column: 1 / 6;
+      padding: 18px;
+      border: 1px solid transparent;
+      // border-radius: 6px;
+    }
+    .success {
+      border-color: green;
+      background-color: rgba(0, 128, 0, 0.05);
+    }
+    .error {
+      border-color: red;
+      background-color: rgba(255, 0, 0, 0.05);
+    }
+    .loader {
+      grid-column: 2 / 4;
+      img {
+        height: 90px;
       }
     }
   }

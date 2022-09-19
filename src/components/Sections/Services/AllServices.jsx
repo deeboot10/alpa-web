@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
 import icon1 from "../../../img/servicesIllustration1.svg";
+import icon2 from "../../../img/servicesIllustration2.svg";
+import icon3 from "../../../img/servicesIllustration3.svg";
+import icon4 from "../../../img/servicesIllustration4.svg";
+import icon5 from "../../../img/servicesIllustration5.svg";
+import icon6 from "../../../img/servicesIllustration6.svg";
+import icon7 from "../../../img/servicesIllustration7.svg";
+import icon8 from "../../../img/servicesIllustration8.svg";
 
 function AllServices() {
   return (
@@ -24,10 +31,23 @@ function AllServices() {
         </div>
         <div className="item">
           <div className="icon-container">
-            <img src={icon1} alt="Illustration" />
+            <img src={icon2} alt="Illustration" />
           </div>
           <div className="text">
-            <span>Website Design</span>
+            <span>Online Paid Advertising (PPC)</span>
+            <p>
+              Your company will appear professional and reliable online only if
+              it has a nice and functional website. Customers will be able to
+              simply locate you and understand what you have to offer.
+            </p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="icon-container">
+            <img src={icon3} alt="Illustration" />
+          </div>
+          <div className="text">
+            <span>Search Engine Optimisation(SEO)</span>
             <p>
               Your firm will appear professional and reliable online if it has a
               nice and functional website. Customers will be able to simply
@@ -37,10 +57,10 @@ function AllServices() {
         </div>
         <div className="item">
           <div className="icon-container">
-            <img src={icon1} alt="Illustration" />
+            <img src={icon4} alt="Illustration" />
           </div>
           <div className="text">
-            <span>Website Design</span>
+            <span>Website Audit</span>
             <p>
               Your firm will appear professional and reliable online if it has a
               nice and functional website. Customers will be able to simply
@@ -50,10 +70,10 @@ function AllServices() {
         </div>
         <div className="item">
           <div className="icon-container">
-            <img src={icon1} alt="Illustration" />
+            <img src={icon5} alt="Illustration" />
           </div>
           <div className="text">
-            <span>Website Design</span>
+            <span>Website Development</span>
             <p>
               Your firm will appear professional and reliable online if it has a
               nice and functional website. Customers will be able to simply
@@ -63,10 +83,10 @@ function AllServices() {
         </div>
         <div className="item">
           <div className="icon-container">
-            <img src={icon1} alt="Illustration" />
+            <img src={icon6} alt="Illustration" />
           </div>
           <div className="text">
-            <span>Website Design</span>
+            <span>Content Strategy</span>
             <p>
               Your firm will appear professional and reliable online if it has a
               nice and functional website. Customers will be able to simply
@@ -76,10 +96,10 @@ function AllServices() {
         </div>
         <div className="item">
           <div className="icon-container">
-            <img src={icon1} alt="Illustration" />
+            <img src={icon7} alt="Illustration" />
           </div>
           <div className="text">
-            <span>Website Design</span>
+            <span>Local SEO</span>
             <p>
               Your firm will appear professional and reliable online if it has a
               nice and functional website. Customers will be able to simply
@@ -89,23 +109,10 @@ function AllServices() {
         </div>
         <div className="item">
           <div className="icon-container">
-            <img src={icon1} alt="Illustration" />
+            <img src={icon8} alt="Illustration" />
           </div>
           <div className="text">
-            <span>Website Design</span>
-            <p>
-              Your firm will appear professional and reliable online if it has a
-              nice and functional website. Customers will be able to simply
-              locate you and understand what you have to offer.
-            </p>
-          </div>
-        </div>
-        <div className="item">
-          <div className="icon-container">
-            <img src={icon1} alt="Illustration" />
-          </div>
-          <div className="text">
-            <span>Website Design</span>
+            <span>Ecomrece SEO</span>
             <p>
               Your firm will appear professional and reliable online if it has a
               nice and functional website. Customers will be able to simply

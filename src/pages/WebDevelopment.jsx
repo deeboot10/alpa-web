@@ -9,6 +9,8 @@ import blueArr from "../img/arrRightBlue.svg";
 import icon1 from "../img/servicesIllustration1.svg";
 import icon2 from "../img/servicesIllustration2.svg";
 import icon3 from "../img/servicesIllustration3.svg";
+import AllServices from "../components/Sections/Services/AllServices";
+import WorkTogether from "../components/Fixed/WorkTogether";
 function WebDevelopment() {
   return (
     <div className="web-design">
@@ -76,129 +78,7 @@ function WebDevelopment() {
           </div>
         </div>
       </section>
-      <section className="all-services">
-        <div className="head">
-          <span>OUR WEB DESIGN SERVICES</span>
-          <h2>How can we help you?</h2>
-        </div>
-        <div className="grid">
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Illustration" />
-            </div>
-            <div className="text">
-              <span>Website Design</span>
-              <p>
-                Your firm will appear professional and reliable online if it has
-                a nice and functional website. Customers will be able to simply
-                locate you and understand what you have to offer.
-              </p>
-            </div>
-          </div>
-        </div>
-        <section className="work-together">
-          <h2>Let's Work Together!</h2>
-          <p>
-            Need a quote on a re-design or a new project? Give us a bit of
-            detail
-          </p>
-          <p>on your project and let us help!</p>
-          <Link to="/get-started">
-            <button className="btn-special">START A PROJECT</button>
-          </Link>
-        </section>
-      </section>
+      <AllServices></AllServices>
     </div>
   );
 }

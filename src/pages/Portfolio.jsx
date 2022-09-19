@@ -1,5 +1,6 @@
 import bg from "../img/portfolio1.png";
 import { Link } from "react-router-dom";
+import WorkTogether from "../components/Fixed/WorkTogether";
 function Portoflio() {
   return (
     <div className="portfolio">
@@ -53,16 +54,7 @@ function Portoflio() {
           </div>
         </Link>
       </section>
-      <section className="work-together">
-        <h2>Let's Work Together!</h2>
-        <p>
-          Need a quote on a re-design or a new project? Give us a bit of detail
-        </p>
-        <p>on your project and let us help!</p>
-        <Link to="/get-started">
-          <button className="btn-special">START A PROJECT</button>
-        </Link>
-      </section>
+      <WorkTogether></WorkTogether>
     </div>
   );
 }

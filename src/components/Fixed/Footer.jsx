@@ -11,13 +11,14 @@ function Footer() {
           <h3>GENERAL</h3>
           <Link to="/about">About</Link>
           <Link to="/portfolio">Clients</Link>
-          <Link to="/testimonials">Testimonials</Link>
+          <Link to="/">Testimonials</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/contact">Contact</Link>
         </div>
         <div className="item">
           <h3>SERVICES</h3>
-          <Link to="/services/website-design">Website design</Link>
+          <Link to="/services/web-design">Website Design</Link>
+          <Link to="/services/web-development">Website Development</Link>
           <Link to="/services/seo">Search Engine Optimization</Link>
           <Link to="/services/e-commerce">E Commerce</Link>
         </div>

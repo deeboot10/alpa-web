@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import img1 from "../../../img/servicesImg1.png";
+import img1 from "../../../img/servicesImg1.webp";
 import dots from "../../../img/dots.svg";
 
 function SubHero() {

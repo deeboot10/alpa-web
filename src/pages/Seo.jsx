@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import bg from "../img/aboutUsMainBg.png";
+import bg from "../img/aboutUsMainBg.webp";
 import arr from "../img/arrRight.svg";
-import img1 from "../img/servicesImg1.png";
+import img1 from "../img/servicesImg1.webp";
 import dots from "../img/dots.svg";
-import img from "../img/servicesImg2.png";
-import img2 from "../img/servicesImg3.png";
+import img from "../img/servicesImg2.webp";
+import img2 from "../img/servicesImg3.webp";
 import icon1 from "../img/servicesIllustration1.svg";
 import WorkTogether from "../components/Fixed/WorkTogether";
 import AllServices from "../components/Sections/Services/AllServices";

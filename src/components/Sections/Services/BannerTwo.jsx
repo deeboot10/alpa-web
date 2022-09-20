@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import img from "../../../img/servicesImg3.png";
+import img from "../../../img/servicesImg3.webp";
 import { isMobile } from "react-device-detect";
 
 function BannerTwo() {
@@ -19,7 +19,7 @@ function BannerTwo() {
           the groundwork for the rest of your project during the discovery
           phase.
         </p>
-        <Link to="/consultation">
+        <Link to="/contact">
           <button>Free web solutions</button>
         </Link>
       </div>

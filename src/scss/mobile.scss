@@ -224,6 +224,15 @@
       }
     }
   }
+  .work-together {
+    button.btn-special {
+      color: white;
+      background: linear-gradient(-90deg, #0038ff, #4b72ff);
+      border: none;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+
   .services,
   .web-design,
   .seo,

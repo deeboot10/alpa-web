@@ -219,12 +219,9 @@
     .grid {
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 42px;
-      a {
-        display: flex;
-        align-items: center;
-        img {
-          max-width: 100%;
-        }
+      img {
+        width: 100%;
+        max-width: 600px;
       }
     }
   }

@@ -13,7 +13,8 @@
     .showcase {
       position: relative;
       img {
-        max-height: 70vh;
+        width: 100%;
+        max-width: 600px;
       }
       .info {
         position: absolute;

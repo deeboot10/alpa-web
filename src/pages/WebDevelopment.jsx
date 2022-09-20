@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import bg from "../img/aboutUsMainBg.png";
+import bg from "../img/aboutUsMainBg.webp";
 import arr from "../img/arrRight.svg";
-import img1 from "../img/servicesImg1.png";
+import img1 from "../img/servicesImg1.webp";
 import dots from "../img/dots.svg";
-import img from "../img/servicesImg2.png";
-import img2 from "../img/servicesImg3.png";
+import img from "../img/servicesImg2.webp";
+import img2 from "../img/servicesImg3.webp";
 import blueArr from "../img/arrRightBlue.svg";
 import icon1 from "../img/servicesIllustration1.svg";
 import icon2 from "../img/servicesIllustration2.svg";
@@ -21,7 +21,7 @@ function WebDevelopment() {
         <div className="text">
           <span>Agency That Works With You</span>
           <h1>Website Development Services</h1>
-          <Link to="get-started">
+          <Link to="/contact">
             <button className="black-btn">
               Get Started <img src={arr} alt="Arrow pointing to right"></img>
             </button>
@@ -56,7 +56,7 @@ function WebDevelopment() {
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate
             </p>
-            <Link to="/services/web-design">
+            <Link to="/services/seo">
               <img src={blueArr} alt="Blue arrow pointing to right" />
             </Link>
           </div>
@@ -72,12 +72,13 @@ function WebDevelopment() {
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate
             </p>
-            <Link to="/services/web-design">
+            <Link to="/services/e-commerce">
               <img src={blueArr} alt="Blue arrow pointing to right" />
             </Link>
           </div>
         </div>
       </section>
+      <div style={{ marginTop: 200 }}></div>
       <AllServices></AllServices>
     </div>
   );

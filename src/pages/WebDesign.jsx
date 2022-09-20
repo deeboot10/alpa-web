@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import bg from "../img/aboutUsMainBg.png";
+import bg from "../img/aboutUsMainBg.webp";
 import arr from "../img/arrRight.svg";
-import img1 from "../img/servicesImg1.png";
+import img1 from "../img/servicesImg1.webp";
 import dots from "../img/dots.svg";
-import img from "../img/servicesImg2.png";
-import img2 from "../img/servicesImg3.png";
+import img from "../img/servicesImg2.webp";
+import img2 from "../img/servicesImg3.webp";
 import blueArr from "../img/arrRightBlue.svg";
 import icon1 from "../img/servicesIllustration1.svg";
 import icon2 from "../img/servicesIllustration2.svg";
@@ -22,8 +22,8 @@ function WebDesign() {
         >
           <div className="text">
             <span>Agency That Works With You</span>
-            <h1>Alpa Services & Strategies that grow your online presence</h1>
-            <Link to="get-started">
+            <h1>Website Design Services</h1>
+            <Link to="/contact">
               <button className="black-btn">
                 Get Started <img src={arr} alt="Arrow pointing to right"></img>
               </button>
@@ -171,7 +171,7 @@ function WebDesign() {
           <span>GETTING MORE LEADS DOESN'T HAVE TO BE HARD</span>
           <h3>We are here to help you grow.</h3>
           <p>Get in touch with us and our team</p>
-          <Link to="/consultation">
+          <Link to="/contact">
             <button>Free consultation</button>
           </Link>
         </div>
@@ -194,7 +194,7 @@ function WebDesign() {
             solution. We'll lay the groundwork for the rest of your project
             during the discovery phase.
           </p>
-          <Link to="/consultation">
+          <Link to="/contact">
             <button>Free web solutions</button>
           </Link>
         </div>

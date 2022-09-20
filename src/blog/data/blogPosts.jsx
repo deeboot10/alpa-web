@@ -1,4 +1,4 @@
-import placeholder from "../../img/blogPlaceholder.png";
+import placeholder from "../../img/blogPlaceholder.webp";
 
 const blogData = {
   "how-we-innovate-in-blooming-industry": {

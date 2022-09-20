@@ -1,9 +1,9 @@
-import web1 from "../../../img/portfolioExample1.png";
-import web2 from "../../../img/portfolioExample2.png";
-import web3 from "../../../img/portfolioExample3.png";
-import web4 from "../../../img/portfolioExample4.png";
-import web5 from "../../../img/portfolioExample5.png";
-import web6 from "../../../img/portfolioExample6.png";
+import web1 from "../../../img/portfolio-kraljicakafa.webp";
+import web2 from "../../../img/portfolio-appainu.webp";
+import web3 from "../../../img/portfolio-marusa.webp";
+import web4 from "../../../img/portfolio-web3cf.webp";
+import web5 from "../../../img/potrfolio-teenapesquad.webp";
+import web6 from "../../../img/portfolioExample6.webp";
 import { Link } from "react-router-dom";
 function Portfolio() {
   return (

@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import image from "../../../img/heroImg.png";
+import image from "../../../img/heroImg.webp";
 import circleArrow from "../../../img/circleArrow.svg";
 import mainBg from "../../../img/mainBg.svg";
 import vectors from "../../../img/vectors.svg";
+import { Parallax } from "react-parallax";
 function Hero() {
   return (
     <section className="hero" style={{ backgroundImage: `url(${mainBg})` }}>
@@ -17,7 +18,8 @@ function Hero() {
           </button>
         </Link>
         <h1>
-          Agency that <br /> generates more <br /> <span>leads for you.</span>
+          Agency that <br /> generates more <br />
+          <span>leads for you.</span>
         </h1>
         <p className="paragraph">
           It is our goal to never do things just to get them done, our main

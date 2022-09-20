@@ -47,7 +47,7 @@ function Optimization() {
           </p>
         </div>
       </div>
-      <Link className="btn-link" to="/seo">
+      <Link className="btn-link" to="/contact">
         <button>GET A FREE SEO AUDIT</button>
       </Link>
     </section>

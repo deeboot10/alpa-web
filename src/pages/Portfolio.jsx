@@ -1,6 +1,9 @@
-import bg from "../img/portfolio1.png";
-import { Link } from "react-router-dom";
 import WorkTogether from "../components/Fixed/WorkTogether";
+import web1 from "../img/portfolio-kraljicakafa.webp";
+import web2 from "../img/portfolio-appainu.webp";
+import web3 from "../img/portfolio-marusa.webp";
+import web4 from "../img/portfolio-web3cf.webp";
+import web5 from "../img/potrfolio-teenapesquad.webp";
 function Portoflio() {
   return (
     <div className="portfolio">
@@ -11,48 +14,48 @@ function Portoflio() {
           </h1>
           <p>Our work doesn't just look good. It is a first step forward.</p>
         </div>
-        <Link to="/portfolio/case1" className="showcase">
-          <img src={bg} alt="Portfolio website for showcase" />
+        <div className="showcase">
+          <img src={web1} alt="Portfolio website for showcase" />
           <div className="info">
-            <span>Recent Project </span>
-            <h3>4 Doors More Whores</h3>
-            <p>SEO • Web Design • Web Development</p>
+            <h3>Coffee resale - Kraljica Kafa</h3>
+            <div className="line"></div>
+            <p>SEO • Web Design • Web Development • E-Commerce</p>
           </div>
-        </Link>
+        </div>
       </section>
       <section className="our-work">
-        <Link to="/portfolio/case2" className="showcase">
-          <img src={bg} alt="Portfolio website for showcase" />
+        <div className="showcase">
+          <img src={web2} alt="Portfolio website for showcase" />
           <div className="info">
-            <h3>4 Doors More Whores</h3>
+            <h3>Cryptocurrency - Appa Inu</h3>
             <div className="line"></div>
             <p>SEO • Web Design • Web Development</p>
           </div>
-        </Link>
-        <Link to="/portfolio/case2" className="showcase">
-          <img src={bg} alt="Portfolio website for showcase" />
+        </div>
+        <div className="showcase">
+          <img src={web3} alt="Portfolio website for showcase" />
           <div className="info">
-            <h3>4 Doors More Whores</h3>
+            <h3>Work Shop - Machine Center Marušić</h3>
             <div className="line"></div>
             <p>SEO • Web Design • Web Development</p>
           </div>
-        </Link>
-        <Link to="/portfolio/case2" className="showcase">
-          <img src={bg} alt="Portfolio website for showcase" />
+        </div>
+        <div className="showcase">
+          <img src={web4} alt="Portfolio website for showcase" />
           <div className="info">
-            <h3>4 Doors More Whores</h3>
+            <h3>Web3 Community - Web3 Central Florida</h3>
             <div className="line"></div>
             <p>SEO • Web Design • Web Development</p>
           </div>
-        </Link>
-        <Link to="/portfolio/case2" className="showcase">
-          <img src={bg} alt="Portfolio website for showcase" />
+        </div>
+        <div className="showcase">
+          <img src={web5} alt="Portfolio website for showcase" />
           <div className="info">
-            <h3>4 Doors More Whores</h3>
+            <h3>Nft Collection - Teen Ape Squad</h3>
             <div className="line"></div>
-            <p>SEO • Web Design • Web Development</p>
+            <p>SEO • Web Design • Web Development • PPC</p>
           </div>
-        </Link>
+        </div>
       </section>
       <WorkTogether></WorkTogether>
     </div>

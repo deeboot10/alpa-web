@@ -1,4 +1,4 @@
-import bg from "../img/blogImg1.png";
+import bg from "../img/blogImg1.webp";
 import { Link } from "react-router-dom";
 import BlogArticle from "../components/Sections/Blog/BlogArticle";
 import blogdata from "../blog/data/blogPosts";
@@ -11,7 +11,11 @@ function Blog() {
 
   const handlePageChange = (pageIndex) => {
     setActivePage(pageIndex);
-    window.scrollTo(0, blogRef.current.offsetTop);
+    window.scrollTo({
+      left: 0,
+      top: blogRef.current.offsetTop,
+      behavior: "smooth",
+    });
   };
 
   // loading dom articles
@@ -35,6 +39,8 @@ function Blog() {
       );
     }
   });
+
+  console.log(blogdata[blogKeys[0]]);
 
   // pagination
   const paginationDom = [];
@@ -63,15 +69,11 @@ function Blog() {
           </h1>
           <p>Read our stories and learn more about our creative process.</p>
         </div>
-        <Link to="/blog/local-seo" className="showcase">
+        <Link to={"/blog/" + blogKeys[0]} className="showcase">
           <img src={bg} alt="Placeholder immage for blog article" />
           <div className="info">
-            <span>Local SEO</span>
-            <p>
-              Local SEO (search engine optimization) refers to optimizing a
-              website to rank for searches that are specific to a particular
-              geographic area.
-            </p>
+            <span>{blogdata[blogKeys[0]].title}</span>
+            <p>{blogdata[blogKeys[0]].description}</p>
           </div>
         </Link>
       </section>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import icon from "../../../img/servicesIllustration1.svg";
-import img from "../../../img/servicesImg4.png";
+import img from "../../../img/servicesImg4.webp";
 import dots from "../../../img/dots.svg";
 import rectangle from "../../../img/blue-rectangle.svg";
 

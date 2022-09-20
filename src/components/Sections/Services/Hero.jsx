@@ -4,7 +4,7 @@ import blueArr from "../../../img/arrRightBlue.svg";
 import icon1 from "../../../img/servicesIllustration1.svg";
 import icon2 from "../../../img/servicesIllustration2.svg";
 import icon3 from "../../../img/servicesIllustration3.svg";
-import bg from "../../../img/aboutUsMainBg.png";
+import bg from "../../../img/aboutUsMainBg.webp";
 import { BrowserView, MobileView } from "react-device-detect";
 
 function Hero() {
@@ -14,7 +14,7 @@ function Hero() {
         <div className="text">
           <span>Agency That Works With You</span>
           <h1>Alpa Services & Strategies that grow your online presence</h1>
-          <Link to="get-started">
+          <Link to="/contact">
             <button className="black-btn">
               Get Started <img src={arr} alt="Arrow pointing to right"></img>
             </button>
@@ -49,7 +49,7 @@ function Hero() {
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate
             </p>
-            <Link to="/services/web-design">
+            <Link to="/services/seo">
               <img src={blueArr} alt="Blue arrow pointing to right" />
             </Link>
           </div>
@@ -65,7 +65,7 @@ function Hero() {
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate
             </p>
-            <Link to="/services/web-design">
+            <Link to="/services/e-commerce">
               <img src={blueArr} alt="Blue arrow pointing to right" />
             </Link>
           </div>
@@ -100,7 +100,7 @@ function Hero() {
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate
           </p>
-          <Link to="/services/web-design">
+          <Link to="/services/seo">
             <img src={blueArr} alt="Blue arrow pointing to right" />
           </Link>
         </div>
@@ -116,7 +116,7 @@ function Hero() {
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate
           </p>
-          <Link to="/services/web-design">
+          <Link to="/services/e-commerce">
             <img src={blueArr} alt="Blue arrow pointing to right" />
           </Link>
         </div>

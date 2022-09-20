@@ -20,7 +20,7 @@
     h1 {
       font-size: 42px;
       text-align: center;
-      max-width: 70%;
+      max-width: 100%;
     }
     .text {
       display: flex;
@@ -90,6 +90,9 @@
         }
       }
     }
+  }
+  .web-design .all-services {
+    margin-top: 200px;
   }
   section.sub-hero {
     display: grid;

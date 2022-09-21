@@ -7,9 +7,13 @@ import img2 from "../img/about2.webp";
 import rectangle from "../img/blue-rectangle.svg";
 import circle from "../img/blue-circle.svg";
 import { MobileView, BrowserView } from "react-device-detect";
+import { Helmet } from "react-helmet";
 function About() {
   return (
     <div className="about">
+      <Helmet>
+        <title>Alpa Digital Agency | About</title>
+      </Helmet>
       <section className="hero" style={{ backgroundImage: `url(${bg})` }}>
         <span>Agency that works with You</span>
         <h1>About Us</h1>

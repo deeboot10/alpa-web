@@ -12,9 +12,14 @@ import icon3 from "../img/servicesIllustration3.svg";
 import { isMobile, BrowserView, MobileView } from "react-device-detect";
 import WorkTogether from "../components/Fixed/WorkTogether";
 import AllServices from "../components/Sections/Services/AllServices";
+import { Helmet } from "react-helmet";
+import ServicesSubHero from "../components/Fixed/ServicesSubHero";
 function WebDesign() {
   return (
     <div className="web-design">
+      <Helmet>
+        <title>Alpa Digital Agency | Web Design</title>
+      </Helmet>
       <>
         <section
           className="web-design-hero"
@@ -30,105 +35,11 @@ function WebDesign() {
             </Link>
           </div>
           <BrowserView className="items">
-            <div className="item">
-              <div className="icon-container">
-                <img src={icon1} alt="Web design illustration" />
-              </div>
-              <h3>WEBSITE DESIGN</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate
-              </p>
-              <Link to="/services/web-design">
-                <img src={blueArr} alt="Blue arrow pointing to right" />
-              </Link>
-            </div>
-            <div className="item">
-              <div className="icon-container">
-                <img src={icon2} alt="Web design illustration" />
-              </div>
-              <h3>SEO</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate
-              </p>
-              <Link to="/services/web-design">
-                <img src={blueArr} alt="Blue arrow pointing to right" />
-              </Link>
-            </div>
-            <div className="item">
-              <div className="icon-container">
-                <img src={icon3} alt="Web design illustration" />
-              </div>
-              <h3>PPC</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate
-              </p>
-              <Link to="/services/web-design">
-                <img src={blueArr} alt="Blue arrow pointing to right" />
-              </Link>
-            </div>
+            <ServicesSubHero></ServicesSubHero>
           </BrowserView>
         </section>
         <MobileView className="items">
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon1} alt="Web design illustration" />
-            </div>
-            <h3>WEBSITE DESIGN</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate
-            </p>
-            <Link to="/services/web-design">
-              <img src={blueArr} alt="Blue arrow pointing to right" />
-            </Link>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon2} alt="Web design illustration" />
-            </div>
-            <h3>SEO</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate
-            </p>
-            <Link to="/services/web-design">
-              <img src={blueArr} alt="Blue arrow pointing to right" />
-            </Link>
-          </div>
-          <div className="item">
-            <div className="icon-container">
-              <img src={icon3} alt="Web design illustration" />
-            </div>
-            <h3>PPC</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate
-            </p>
-            <Link to="/services/web-design">
-              <img src={blueArr} alt="Blue arrow pointing to right" />
-            </Link>
-          </div>
+          <ServicesSubHero></ServicesSubHero>
         </MobileView>
       </>
       <section className="sub-hero">

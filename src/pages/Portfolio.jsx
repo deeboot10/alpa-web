@@ -4,9 +4,13 @@ import web2 from "../img/portfolio-appainu.webp";
 import web3 from "../img/portfolio-marusa.webp";
 import web4 from "../img/portfolio-web3cf.webp";
 import web5 from "../img/potrfolio-teenapesquad.webp";
+import { Helmet } from "react-helmet";
 function Portoflio() {
   return (
     <div className="portfolio">
+      <Helmet>
+        <title>Alpa Digital Agency | Portfolio</title>
+      </Helmet>
       <section className="hero">
         <div className="text">
           <h1>

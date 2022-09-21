@@ -1,8 +1,9 @@
-import bg from "../img/blogImg1.webp";
+import bg from "../img/blog1.webp";
 import { Link } from "react-router-dom";
 import BlogArticle from "../components/Sections/Blog/BlogArticle";
 import blogdata from "../blog/data/blogPosts";
 import { useState, useRef } from "react";
+import { Helmet } from "react-helmet";
 
 const blogKeys = Object.keys(blogdata);
 function Blog() {
@@ -62,6 +63,9 @@ function Blog() {
 
   return (
     <div className="blog">
+      <Helmet>
+        <title>Alpa Digital Agency | Blog</title>
+      </Helmet>
       <section className="hero">
         <div className="text">
           <h1>

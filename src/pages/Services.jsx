@@ -4,9 +4,13 @@ import BannerOne from "../components/Sections/Services/BannerOne";
 import AllServices from "../components/Sections/Services/AllServices";
 import BannerTwo from "../components/Sections/Services/BannerTwo";
 import WebDesignServices from "../components/Sections/Services/WebDesignServices";
+import { Helmet } from "react-helmet";
 function Services() {
   return (
     <div className="services">
+      <Helmet>
+        <title>Alpa Digital Agency | Services</title>
+      </Helmet>
       <Hero></Hero>
       <SubHero></SubHero>
       <BannerOne></BannerOne>

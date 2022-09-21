@@ -6,9 +6,13 @@ import Optimization from "../components/Sections/Home/Optimization";
 import AuditReport from "../components/Sections/Home/AuditReport";
 import MovingStrip from "../components/Sections/Home/MovingStrip";
 import Contact from "../components/Sections/Home/Contact";
+import { Helmet } from "react-helmet";
 function Home() {
   return (
     <div className="home">
+      <Helmet>
+        <title>Alpa Digital Agency | Home</title>
+      </Helmet>
       <Hero />
       <SubHero />
       <Services />

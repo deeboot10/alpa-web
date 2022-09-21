@@ -5,6 +5,7 @@ import facebook from "../img/facebook-white.svg";
 import twitter from "../img/twitter-white.svg";
 import pinterest from "../img/pinterest-white.svg";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 function SingleBlog() {
   const length = window.location.href.split("/").length - 1;
   const id = window.location.href.split("/")[length];
@@ -37,6 +38,10 @@ function SingleBlog() {
 
   return (
     <div className="single-blog">
+      <Helmet>
+        <title>Alpa Digital Agency | {data.title}</title>
+        <meta name="description" content={data.description} />
+      </Helmet>
       <div className="main">
         <h1 className="title">{data.title}</h1>
         <span className="date-and-author">

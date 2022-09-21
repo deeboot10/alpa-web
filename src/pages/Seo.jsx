@@ -5,13 +5,16 @@ import img1 from "../img/servicesImg1.webp";
 import dots from "../img/dots.svg";
 import img from "../img/servicesImg2.webp";
 import img2 from "../img/servicesImg3.webp";
-import icon1 from "../img/servicesIllustration1.svg";
 import WorkTogether from "../components/Fixed/WorkTogether";
 import AllServices from "../components/Sections/Services/AllServices";
 import { isMobile } from "react-device-detect";
+import { Helmet } from "react-helmet";
 function Seo() {
   return (
     <div className="seo">
+      <Helmet>
+        <title>Alpa Digital Agency | Seo</title>
+      </Helmet>
       <section className="seo-hero" style={{ backgroundImage: `url(${bg})` }}>
         <span>Agency that works with You</span>
         <h1>Search Engine Optimisation (SEO) Services</h1>

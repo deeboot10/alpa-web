@@ -19,11 +19,9 @@ function Services() {
         <img src={icon1} className="icon1" alt="Design illustration" />
         <h3>WEBSITE DESIGN</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate
+          We believe that the right design following correct design patterns can
+          provide a superior web experience for users. It is our core principle
+          to make meaningful design with passion.
         </p>
         <Link to="/services/web-design">
           <img src={arr} className="icon2" alt="Arrow pointing to the right" />
@@ -33,11 +31,10 @@ function Services() {
         <img src={icon2} className="icon1" alt="Design illustration" />
         <h3>SEO</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate
+          All the work you put into your website would go in vain if no one
+          could see it, right? That is why we offer Search Engine Optimization
+          services to make your website visible to users looking for services
+          you offer.
         </p>
         <Link to="/services/seo">
           <img src={arr} className="icon2" alt="Arrow pointing to the right" />
@@ -47,11 +44,9 @@ function Services() {
         <img src={icon3} className="icon1" alt="Design illustration" />
         <h3>E-COMMERCE</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate
+          Online shopping is growing in popularity day by day. Make your
+          business stand out in that field with our custom service and find your
+          way to web customers all over the world.
         </p>
         <Link to="/services/e-commerce">
           <img src={arr} className="icon2" alt="Arrow pointing to the right" />
@@ -61,11 +56,9 @@ function Services() {
         <img src={icon4} className="icon1" alt="Design illustration" />
         <h3>LOCAL SEO</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate
+          Make sure visitors in your area will be informed about your store.
+          Specificaly target the area your business is operating in and enjoy
+          new customers.
         </p>
         <Link to="/services/seo">
           <img src={arr} className="icon2" alt="Arrow pointing to the right" />

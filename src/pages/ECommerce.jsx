@@ -3,9 +3,13 @@ import arrWhite from "../img/arrRightWhite.svg";
 import { Link } from "react-router-dom";
 import bg from "../img/aboutUsMainBg.webp";
 import WorkTogether from "../components/Fixed/WorkTogether";
+import { Helmet } from "react-helmet";
 function ECommerce() {
   return (
     <div className="e-commerce">
+      <Helmet>
+        <title>Alpa Digital Agency | E-Commerce</title>
+      </Helmet>
       <section className="hero" style={{ backgroundImage: `url(${bg})` }}>
         <span>Agency that works with You</span>
         <h1>E-Commerce Web Design & Development</h1>

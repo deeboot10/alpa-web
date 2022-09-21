@@ -36,9 +36,10 @@ function AllServices() {
           <div className="text">
             <span>Online Paid Advertising (PPC)</span>
             <p>
-              Your company will appear professional and reliable online only if
-              it has a nice and functional website. Customers will be able to
-              simply locate you and understand what you have to offer.
+              We can run an online paid campaign to promote your products and
+              services. Online marketing campaigns have showed significant
+              results in all fields because of their ability to target only
+              specific audience.
             </p>
           </div>
         </div>
@@ -49,9 +50,10 @@ function AllServices() {
           <div className="text">
             <span>Search Engine Optimisation(SEO)</span>
             <p>
-              Your firm will appear professional and reliable online if it has a
-              nice and functional website. Customers will be able to simply
-              locate you and understand what you have to offer.
+              All the work you put into your website would go in vain if no one
+              could see it, right? That is why we offer Search Engine
+              Optimization services to make your website visible to users
+              looking for services you offer.
             </p>
           </div>
         </div>
@@ -62,9 +64,9 @@ function AllServices() {
           <div className="text">
             <span>Website Audit</span>
             <p>
-              Your firm will appear professional and reliable online if it has a
-              nice and functional website. Customers will be able to simply
-              locate you and understand what you have to offer.
+              Get free service and let us review your current websites and give
+              you detailed plan of shortcomings and possible improvements. Take
+              your business to the next level.
             </p>
           </div>
         </div>
@@ -75,9 +77,9 @@ function AllServices() {
           <div className="text">
             <span>Website Development</span>
             <p>
-              Your firm will appear professional and reliable online if it has a
-              nice and functional website. Customers will be able to simply
-              locate you and understand what you have to offer.
+              Transition from perfect design to functional code and finally to a
+              fully operating website has been the task of our devs for years.
+              Always perfecting our skills with your business' goals in mind.
             </p>
           </div>
         </div>
@@ -88,9 +90,9 @@ function AllServices() {
           <div className="text">
             <span>Content Strategy</span>
             <p>
-              Your firm will appear professional and reliable online if it has a
-              nice and functional website. Customers will be able to simply
-              locate you and understand what you have to offer.
+              Our content lets users understand your vision and ideas with ease.
+              We generate meaningful texts and images that communicate to
+              consumers.
             </p>
           </div>
         </div>
@@ -101,9 +103,9 @@ function AllServices() {
           <div className="text">
             <span>Local SEO</span>
             <p>
-              Your firm will appear professional and reliable online if it has a
-              nice and functional website. Customers will be able to simply
-              locate you and understand what you have to offer.
+              Make sure visitors in your area will be informed about your store.
+              Specifically target the area your business is operating in and
+              enjoy new customers.
             </p>
           </div>
         </div>
@@ -112,11 +114,11 @@ function AllServices() {
             <img src={icon8} alt="Illustration" />
           </div>
           <div className="text">
-            <span>Ecomrece SEO</span>
+            <span>E-commerce SEO</span>
             <p>
-              Your firm will appear professional and reliable online if it has a
-              nice and functional website. Customers will be able to simply
-              locate you and understand what you have to offer.
+              Online shopping is growing in popularity day by day. Make your
+              business stand out in that field with our custom service and find
+              your way to web customers all over the world.
             </p>
           </div>
         </div>

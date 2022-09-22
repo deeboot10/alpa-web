@@ -4,7 +4,7 @@ import avatar3 from "../../../img/face3.webp";
 import left from "../../../img/left-blue-arr.svg";
 import right from "../../../img/right-blue-arr.svg";
 import star from "../../../img/star-svg.svg";
-import mainBg from "../../../img/mainBg.svg";
+import mainBg from "../../../img/dotsBg.svg";
 import { useState } from "react";
 
 const numberOfComments = 3;

@@ -1,55 +1,63 @@
 import { Link } from "react-router-dom";
 import arr from "../../../img/arrRightWhite.svg";
-
+import icon1 from "../../../img/svgIcon1.svg";
+import icon2 from "../../../img/svgIcon2.svg";
+import icon3 from "../../../img/svgIcon3.svg";
+import icon4 from "../../../img/svgIcon4.svg";
 function Optimization() {
   return (
     <section className="optimization">
-      <h2>SEARCH ENGINE OPTIMIZATION</h2>
-      <p className="paragraph">
-        Every one of our clients benefits from SEO since it establishes a strong
-        online presence for them, increasing their revenue, profitability, and
-        cost-effectiveness while also enhancing their leads and sales.
-      </p>
-      <div className="grid">
-        <div className="item">
-          <h3>ON PAGE SEO AND OFF PAGE SEO</h3>
-          <p>
-            On-page SEO refers to SEO factors and techniques focused on
-            optimizing aspects of your website that are under your control.
-            Off-page SEO refers to SEO factors and strategies focused on
-            promoting your site or brand around the web.
-          </p>
+      <div className="content">
+        <h2>OUR SERVICES</h2>
+        <p className="paragraph">
+          Every one of our clients benefits from SEO since it establishes a
+          strong online presence for them, increasing their revenue,
+          profitability, and cost-effectiveness while also enhancing their leads
+          and sales.
+        </p>
+        <div className="grid">
+          <Link to="/services/web-design" className="item">
+            <img src={icon1} className="icon1" alt="Design illustration" />
+            <h3>WEBSITE DESIGN</h3>
+            <p>
+              We believe that the right design following correct design patterns
+              can provide a superior web experience for users. It is our core
+              principle to make meaningful design with passion.
+            </p>
+          </Link>
+          <Link to="/services/seo" className="item">
+            <img src={icon2} className="icon1" alt="Design illustration" />
+            <h3>SEO</h3>
+            <p>
+              All the work you put into your website would go in vain if no one
+              could see it, right? That is why we offer Search Engine
+              Optimization services to make your website visible to users
+              looking for services you offer.
+            </p>
+          </Link>
+          <Link to="/services/e-commerce" className="item">
+            <img src={icon3} className="icon1" alt="Design illustration" />
+            <h3>E-COMMERCE</h3>
+            <p>
+              Online shopping is growing in popularity day by day. Make your
+              business stand out in that field with our custom service and find
+              your way to web customers all over the world.
+            </p>
+          </Link>
+          <Link to="/services/web-design" className="item">
+            <img src={icon4} className="icon1" alt="Design illustration" />
+            <h3>BRAND STRATEGY</h3>
+            <p>
+              Make sure visitors in your area will be informed about your store.
+              Specificaly target the area your business is operating in and
+              enjoy new customers.
+            </p>
+          </Link>
         </div>
-        <div className="item">
-          <h3>LOCAL SEO</h3>
-          <p>
-            Local SEO is a search engine optimization (SEO) strategy that helps
-            your business be more visible in local search results on Google. Any
-            business that has a physical location or serves a geographic area
-            can benefit from local SEO.
-          </p>
-        </div>
-        <div className="item">
-          <h3>BUILDING AUTHORITY</h3>
-          <p>
-            Link building is a search engine optimization technique that
-            increases your search engine ranking. Having a good number of links
-            to a website indicates that the content is there is valuable.
-          </p>
-        </div>
-        <div className="item">
-          <h3>TECHNICAL SEO</h3>
-          <p>
-            Technical SEO refers to improving the technical aspects of a website
-            in order to increase the ranking of its pages in the search engines.
-            Making a website faster, easier to crawl and understandable for
-            search engines are the pillars of technical optimization.
-          </p>
-        </div>
+        <Link className="btn-link" to="/contact">
+          <button>GET A FREE SEO AUDIT</button>
+        </Link>
       </div>
-      <Link className="btn-link" to="/contact">
-        <button>GET A FREE SEO AUDIT</button>
-      </Link>
     </section>
   );
 }

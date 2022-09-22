@@ -1,5 +1,7 @@
 .blog {
   padding-top: 90px;
+  background-color: #00168b;
+  color: white;
   .hero {
     min-height: calc(100vh - 90px);
     display: grid;
@@ -16,7 +18,7 @@
         position: absolute;
         bottom: 30px;
         left: 15px;
-        backdrop-filter: blur(10px) brightness(80%);
+        backdrop-filter: blur(10px) brightness(60%);
         color: white;
         max-width: 50%;
         padding: 15px 24px;
@@ -35,7 +37,7 @@
       }
     }
     .text {
-      background-color: #f1f3f7;
+      background-color: #000c52;
       padding: 15vh 60px;
       font-size: 30px;
       span {
@@ -46,6 +48,10 @@
         font-weight: 600;
       }
     }
+  }
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
   }
   .blog-articles {
     padding: 90px 60px;

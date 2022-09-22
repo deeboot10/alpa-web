@@ -81,10 +81,12 @@ function Blog() {
           </div>
         </Link>
       </section>
-      <section className="blog-articles" ref={blogRef}>
-        {blogArticlesDom}
-      </section>
-      <section className="pagination">{paginationDom}</section>
+      <div className="content">
+        <section className="blog-articles" ref={blogRef}>
+          {blogArticlesDom}
+        </section>
+        <section className="pagination">{paginationDom}</section>
+      </div>
     </div>
   );
 }

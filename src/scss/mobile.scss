@@ -263,6 +263,7 @@
     grid-gap: 60px;
     grid-template-columns: 1fr;
     .item {
+      margin-top: 60px;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       border-radius: 12px;
       position: relative;
@@ -390,6 +391,14 @@
   }
   .contact-page {
     text-align: center;
+    .hero {
+      margin-top: 0;
+      p,
+      h1,
+      span {
+        max-width: 80%;
+      }
+    }
   }
   .seo {
     h1 {

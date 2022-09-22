@@ -11,7 +11,7 @@ function ContactPage() {
         <h1>LET'S WORK TOGETHER!</h1>
         <p>Need a quote on a re-design or a new project?</p>
         <p>Give us more details on your project and let us help!</p>
-        <span>
+        <span className="email">
           Email: <a href="mailto:info@alpadigital.com">info@alpadigital.com</a>
         </span>
       </section>

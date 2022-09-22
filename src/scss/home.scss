@@ -1,13 +1,17 @@
 .home {
   section.hero {
-    overflow-x: hidden;
-    padding: 0 60px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    overflow-y: hidden;
-    min-height: 100vh;
+    .content {
+      max-width: 1400px;
+      margin: 0 auto;
+      overflow-x: hidden;
+      padding: 0 60px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      overflow-y: hidden;
+      min-height: 100vh;
+    }
     h1 {
       font-size: 60px;
       margin-top: 12px;
@@ -75,7 +79,7 @@
       .main-img {
         position: relative;
         z-index: 2;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         // max-height: 350px;
       }
@@ -187,8 +191,8 @@
   }
 
   section.portfolio {
-    background-color: #001064;
-    color: white;
+    background-color: white;
+    color: #00168b;
     padding: 90px 60px;
     text-align: center;
     display: flex;
@@ -208,8 +212,9 @@
       button {
         font-size: 15px;
         font-weight: 800;
-        color: #333333;
-        background-color: white;
+        color: white;
+
+        background-color: #0038ff;
         border: none;
         padding: 18px 31px;
       }
@@ -218,8 +223,10 @@
       }
     }
     .grid {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-gap: 42px;
+      justify-items: center;
+      align-items: center;
       img {
         width: 100%;
         max-width: 600px;
@@ -228,13 +235,23 @@
   }
 
   section.optimization {
-    padding: 90px 60px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .content {
+      padding: 90px 60px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    a {
+      text-decoration: none;
+    }
     h2 {
       font-size: 42px;
+    }
+    p {
+      font-weight: normal;
     }
     .paragraph {
       font-size: 18px;
@@ -245,7 +262,9 @@
     .grid {
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 30px;
+      justify-items: center;
       .item {
+        max-width: 250px;
         background-color: #0038ff;
         color: white;
         display: flex;
@@ -256,12 +275,16 @@
         padding: 18px 15px;
         border-radius: 12px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: 300ms;
         p {
           opacity: 0.8;
         }
         img {
           height: 30px;
         }
+      }
+      .item:hover {
+        background-color: #2e5bff;
       }
     }
     .btn-link {

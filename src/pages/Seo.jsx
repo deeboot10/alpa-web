@@ -26,7 +26,7 @@ function Seo() {
       </section>
       <section className="sub-hero">
         <div className="text">
-          <span>SEO - Web Design - Ads </span>
+          <span>SEO - Web Design - Brand Strategy </span>
           <h2>Website Design for Your Business</h2>
           <p>
             Alpa Digital can meet all of your needs for website design. There

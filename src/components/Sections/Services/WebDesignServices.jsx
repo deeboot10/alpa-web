@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import icon from "../../../img/servicesIllustration1.svg";
+import icon1 from "../../../img/servicesWebDesignSvg1.svg";
+import icon2 from "../../../img/servicesWebDesignSvg2.svg";
+import icon3 from "../../../img/servicesWebDesignSvg3.svg";
 import img from "../../../img/servicesImg4.webp";
 import dots from "../../../img/dots.svg";
 import rectangle from "../../../img/blue-rectangle.svg";
@@ -46,19 +48,19 @@ function WebDesignServices() {
           <div className="items">
             <div className="item">
               <div className="icon-container">
-                <img src={icon} alt="Illustration" />
+                <img src={icon1} alt="Illustration" />
               </div>
               Website Design & Development
             </div>
             <div className="item">
               <div className="icon-container">
-                <img src={icon} alt="Illustration" />
+                <img src={icon2} alt="Illustration" />
               </div>
               Branding
             </div>
             <div className="item">
               <div className="icon-container">
-                <img src={icon} alt="Illustration" />
+                <img src={icon3} alt="Illustration" />
               </div>
               Search Engine Optimization (SEO)
             </div>

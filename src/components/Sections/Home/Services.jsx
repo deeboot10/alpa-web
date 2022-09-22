@@ -5,7 +5,7 @@ import icon4 from "../../../img/svgIcon4.svg";
 import arr from "../../../img/arrRight.svg";
 import { Link } from "react-router-dom";
 import bg from "../../../img/servicesBg.svg";
-import mainBg from "../../../img/mainBg.svg";
+import mainBg from "../../../img/dotsBg.svg";
 
 function Services() {
   return (
@@ -54,7 +54,7 @@ function Services() {
       </div>
       <div className="item">
         <img src={icon4} className="icon1" alt="Design illustration" />
-        <h3>LOCAL SEO</h3>
+        <h3>BRAND STRATEGY</h3>
         <p>
           Make sure visitors in your area will be informed about your store.
           Specificaly target the area your business is operating in and enjoy

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import bg from "../img/aboutUsMainBg.webp";
 import WorkTogether from "../components/Fixed/WorkTogether";
 import { Helmet } from "react-helmet";
+import AllServices from "../components/Sections/Services/AllServices";
 function ECommerce() {
   return (
     <div className="e-commerce">
@@ -19,6 +20,7 @@ function ECommerce() {
           </button>
         </Link>
       </section>
+      <AllServices></AllServices>
       <WorkTogether></WorkTogether>
       <div className="navigate">
         <div className="text">

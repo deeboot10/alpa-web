@@ -31,6 +31,7 @@ body {
   display: grid;
 }
 button {
+  font-family: "Spartan MB";
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 button:hover {
@@ -54,6 +55,9 @@ footer {
 header {
   a:last-child:after {
     display: none;
+  }
+  a:hover:after {
+    background-color: #0038ff;
   }
 }
 footer {
@@ -102,12 +106,13 @@ header {
             height: 10px;
           }
         }
+
         a:after {
           display: none;
         }
       }
       .hoverDiscoverableBox {
-        padding: 15px 12px;
+        padding: 18px 15px;
         position: absolute;
         top: 100%;
         left: 0;
@@ -121,7 +126,10 @@ header {
           width: max-content;
           min-width: 100%;
           margin: 9px 0;
-          font-size: 15px;
+          font-size: 18px;
+        }
+        a:last-child {
+          margin-bottom: 0;
         }
       }
       .hoverNavigationElement:hover .hoverDiscoverableBox {
@@ -131,7 +139,11 @@ header {
         margin: 0 12px;
         font-size: 18px;
         text-decoration: none;
+        transition: 300ms;
         color: #0f0f0f;
+      }
+      a:hover {
+        color: #0038ff;
       }
       #get-in-touch-btn {
         background-color: #0038ff;

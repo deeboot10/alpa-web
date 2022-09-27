@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import image from "../../../img/heroImg.webp";
 import circleArrow from "../../../img/circleArrow.svg";
-import mainBg from "../../../img/dotsBg.svg";
+import mainBg from "../../../img/pattern.svg";
 import vectors from "../../../img/vectors.svg";
 function Hero() {
   return (

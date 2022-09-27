@@ -138,8 +138,21 @@
       }
       .grid {
         grid-template-columns: 1fr;
-        img {
-          max-width: 90%;
+        .item {
+          .imgs {
+            max-height: 300px;
+            .logo {
+              img {
+                height: 100px;
+              }
+            }
+            img.main {
+              max-width: 300px;
+            }
+          }
+          .text {
+            width: 300px;
+          }
         }
       }
     }
@@ -384,9 +397,24 @@
         }
       }
     }
-    .our-work {
-      padding: 42px 21px;
+    .grid-portfolio {
       grid-template-columns: 1fr;
+      .item {
+        .imgs {
+          max-height: 300px;
+          .logo {
+            img {
+              height: 100px;
+            }
+          }
+          img.main {
+            max-width: 300px;
+          }
+        }
+        .text {
+          width: 300px;
+        }
+      }
     }
   }
   .contact-page {

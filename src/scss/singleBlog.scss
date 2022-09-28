@@ -80,5 +80,9 @@
         width: 100%;
       }
     }
+    .previous:hover,
+    .next:hover {
+      cursor: pointer;
+    }
   }
 }

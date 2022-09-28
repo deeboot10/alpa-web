@@ -75,10 +75,6 @@ function Blog() {
         </div>
         <Link to={"/blog/" + blogKeys[0]} className="showcase">
           <img src={bg} alt="Placeholder immage for blog article" />
-          <div className="info">
-            <span>{blogdata[blogKeys[0]].title}</span>
-            <p>{blogdata[blogKeys[0]].description}</p>
-          </div>
         </Link>
       </section>
       <div className="content">

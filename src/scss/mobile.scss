@@ -95,14 +95,22 @@
   }
   .home {
     .hero {
+      text-align: center;
       padding-top: 90px;
       grid-template-columns: 1fr;
+      a {
+        display: flex;
+        justify-content: center;
+      }
       .buttons {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         button.secondary-btn {
           margin-top: 15px;
         }
+      }
+      .paragraph {
+        max-width: 100%;
       }
       .img {
         margin-top: 60px;
@@ -117,7 +125,7 @@
     }
     .subhero {
       .arrows {
-        padding: 0 21px;
+        padding: 0 12px;
       }
       .comments {
         .comment {
@@ -157,7 +165,9 @@
       }
     }
     .optimization {
-      padding: 20px;
+      .content {
+        padding: 20px;
+      }
       .paragraph {
         max-width: 90%;
       }
@@ -238,7 +248,10 @@
     }
   }
   .work-together {
+    padding: 90px 30px;
     button.btn-special {
+      margin-top: 60px;
+      font-size: 24px;
       color: white;
       background: linear-gradient(-90deg, #0038ff, #4b72ff);
       border: none;
@@ -346,12 +359,16 @@
   .navigate {
     flex-direction: column;
     padding: 42px 21px;
-    .buttons {
-      margin-top: 30px;
-      flex-direction: row;
-      width: 100%;
-      align-items: center;
+    div.buttons {
       justify-content: space-between;
+      width: 100%;
+      margin-top: 30px;
+      a:last-child {
+        margin: 0;
+        .secondary-btn {
+          margin: 0;
+        }
+      }
     }
   }
   .banner-two {
@@ -438,6 +455,7 @@
       grid-template-columns: 1fr;
       padding: 0;
       .showcase {
+        display: none;
         width: 90%;
         margin: 0 auto;
         img {
@@ -475,6 +493,35 @@
       img {
         height: 90px;
       }
+    }
+  }
+  .single-blog {
+    h1.title {
+      font-size: 33px;
+    }
+    img {
+      max-width: 100%;
+    }
+    .main {
+      padding: 90px 15px;
+    }
+    .share {
+      display: flex;
+      flex-direction: column;
+      .items {
+        grid-gap: 0;
+        bottom: 0;
+        .item {
+          box-sizing: border-box;
+          margin-left: 9px;
+          width: 60px;
+          height: 60px;
+          margin-top: 21px;
+        }
+      }
+    }
+    .more {
+      display: none;
     }
   }
 }

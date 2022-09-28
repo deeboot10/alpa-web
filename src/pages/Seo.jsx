@@ -18,7 +18,7 @@ function Seo() {
       <section className="seo-hero" style={{ backgroundImage: `url(${bg})` }}>
         <span>Agency that works with You</span>
         <h1>Search Engine Optimisation (SEO) Services</h1>
-        <Link to="get-started">
+        <Link to="/contact">
           <button className="white-btn">
             Get Started <img src={arr} alt="Arrow pointing to right"></img>
           </button>

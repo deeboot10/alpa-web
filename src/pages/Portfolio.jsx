@@ -19,6 +19,7 @@ import color4 from "../img/portfolio-img/color4.svg";
 import logo5 from "../img/portfolio-img/logo5.png";
 import bg5 from "../img/portfolio-img/bg5.webp";
 import color5 from "../img/portfolio-img/color5.svg";
+import alpaColors from "../img/alpa-rainbow.svg";
 import { Helmet } from "react-helmet";
 function Portoflio() {
   return (
@@ -33,14 +34,9 @@ function Portoflio() {
           </h1>
           <p>Our work doesn't just look good. It is a first step forward.</p>
         </div>
-        {/* <div className="showcase">
-          <img src={web1} alt="Portfolio website for showcase" />
-          <div className="info">
-            <h3>Coffee resale - Kraljica Kafa</h3>
-            <div className="line"></div>
-            <p>SEO • Web Design • Web Development • E-Commerce</p>
-          </div>
-        </div> */}
+        <div className="img">
+          <img src={alpaColors} alt="Alpa Colors" />
+        </div>
       </section>
       <div className="grid-portfolio">
         <a href="https://kraljicakafa.com/" target="_blank" className="item">

@@ -98,6 +98,9 @@
       text-align: center;
       padding-top: 90px;
       grid-template-columns: 1fr;
+      .content {
+        grid-template-columns: 1fr;
+      }
       a {
         display: flex;
         justify-content: center;

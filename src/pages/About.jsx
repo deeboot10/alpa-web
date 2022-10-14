@@ -15,7 +15,7 @@ function About() {
         <title>Alpa Digital Agency | About</title>
       </Helmet>
       <section className="hero" style={{ backgroundImage: `url(${bg})` }}>
-        <span>Agency that works with You</span>
+        <span>Agency That Works With You</span>
         <h1>About Us</h1>
         <Link to="/contact">
           <button className="white-btn">

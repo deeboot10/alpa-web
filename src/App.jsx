@@ -13,6 +13,7 @@ import WebDevelopment from "./pages/WebDevelopment";
 import ECommerce from "./pages/ECommerce";
 import Seo from "./pages/Seo";
 import { isMobile } from "react-device-detect";
+
 function App() {
   return (
     <div className={isMobile ? "mobile" : ""}>

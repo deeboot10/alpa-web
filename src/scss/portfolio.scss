@@ -2,11 +2,10 @@
 .seo,
 .web-design,
 .e-commerce {
-  padding-top: 90px;
   .hero {
     min-height: calc(100vh - 90px);
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -35,7 +34,7 @@
       }
     }
     .text {
-      background-color: #f1f3f7;
+      // background-color: #f1f3f7;
       padding: 15vh 60px;
       font-size: 30px;
       span {
@@ -44,6 +43,12 @@
       p {
         font-size: 21px;
         font-weight: 600;
+      }
+    }
+    .img {
+      width: 100%;
+      img {
+        width: 100%;
       }
     }
   }

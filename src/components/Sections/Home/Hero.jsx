@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import image from "../../../img/heroImg.webp";
 import circleArrow from "../../../img/circleArrow.svg";
-import mainBg from "../../../img/pattern.svg";
+import mainBg from "../../../img/pattern1.svg";
 import vectors from "../../../img/vectors.svg";
+
 function Hero() {
   return (
     <section className="hero" style={{ backgroundImage: `url(${mainBg})` }}>
@@ -18,10 +19,10 @@ function Hero() {
             </button>
           </Link>
           <h1>
-            Agency that <br /> generates more <br />
-            <span>leads for you.</span>
+            Website <span>Brand</span> <br />
+            <span>Building</span> Agency
           </h1>
-          <p className="paragraph">
+          <p className="paragraph ">
             It is our goal to never do things just to get them done, our main
             source of inspiration are good deeds do along the way. That is how
             our products stand out
@@ -47,7 +48,7 @@ function Hero() {
             src={image}
             alt="Laptop with many websites open inside of it"
           />
-          <img src={vectors} alt="Vector background" className="vectors" />
+          {/* <img src={vectors} alt="Vector background" className="vectors" /> */}
         </div>
       </div>
     </section>

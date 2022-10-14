@@ -25,6 +25,7 @@ body {
   }
   button {
     font-weight: 600;
+    border-radius: 100px;
   }
 }
 .grid {
@@ -71,11 +72,8 @@ footer {
 }
 
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
   height: 90px;
-  width: 100vw;
   background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   align-items: center;
@@ -116,7 +114,7 @@ header {
         position: absolute;
         top: 100%;
         left: 0;
-        border: 1px solid rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.15);
         border-radius: 6px;
         flex-direction: column;
         display: none;
@@ -150,7 +148,7 @@ header {
         color: white;
         padding: 15px 42px;
         border: none;
-        border-radius: 6px;
+        border-radius: 100px;
       }
       #get-in-touch-btn:hover {
         cursor: pointer;

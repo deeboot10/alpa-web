@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import arrowDown from "../../img/arrowDown.svg";
+import arrowDownBlue from "../../img/arrowDownBlue.svg";
 import plus from "../../img/plus.svg";
 import { isMobile } from "react-device-detect";
 import { useState } from "react";
@@ -42,7 +43,8 @@ function HoverNavigationElement({
         </div>
       ) : (
         <Link onClick={handleChangeUrl} to={"/" + url}>
-          {name} <img src={arrowDown} alt="Arrow down" />
+          {name} <img className="normal" src={arrowDown} alt="Arrow down" />
+          <img className="blue" src={arrowDownBlue} alt="Arrow down blue" />
         </Link>
       )}
       <div className={"hoverDiscoverableBox " + `${isClicked ? "open" : ""}`}>

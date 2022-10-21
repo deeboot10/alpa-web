@@ -20,6 +20,7 @@ import logo5 from "../img/portfolio-img/logo5.png";
 import bg5 from "../img/portfolio-img/bg5.webp";
 import color5 from "../img/portfolio-img/color5.svg";
 import alpaColors from "../img/alpa-rainbow.svg";
+import tilt from "../img/portfolio-page-text.svg";
 import { Helmet } from "react-helmet";
 function Portoflio() {
   return (
@@ -29,10 +30,15 @@ function Portoflio() {
       </Helmet>
       <section className="hero">
         <div className="text">
-          <h1>
-            Our <span>Website Design</span> Portfolio
-          </h1>
-          <p>Our work doesn't just look good. It is a first step forward.</p>
+          <div className="left">
+            <h1>
+              Our <span>Website Design</span> Portfolio
+            </h1>
+            <p>Our work doesn't just look good. It is a first step forward.</p>
+          </div>
+          <div className="right">
+            <img src={tilt} alt="Arrow and text rotated for 90deg" />
+          </div>
         </div>
         <div className="img">
           <img src={alpaColors} alt="Alpa Colors" />

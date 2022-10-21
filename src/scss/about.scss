@@ -44,6 +44,9 @@
     align-items: center;
     justify-content: center;
     padding: 90px 60px;
+    h2 {
+      font-size: 39px;
+    }
     p {
       font-size: 18px;
       margin-bottom: 0;
@@ -92,8 +95,8 @@
     align-items: center;
     padding: 90px 60px;
     h3 {
-      font-size: 24px;
-      max-width: 60%;
+      font-size: 36px;
+      max-width: 100%;
       text-align: center;
     }
     button {
@@ -101,7 +104,7 @@
       color: white;
       display: flex;
       align-items: center;
-      font-size: 15px;
+      font-size: 24px;
       padding: 12px 31px;
       img {
         height: 21px;

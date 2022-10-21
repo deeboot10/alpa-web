@@ -73,7 +73,7 @@ footer {
 
 header {
   position: relative;
-  height: 90px;
+  height: 150px;
   background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   align-items: center;
@@ -96,9 +96,13 @@ header {
       align-items: center;
       .hoverNavigationElement {
         position: relative;
+        .blue {
+          display: none;
+        }
         a {
           display: flex;
           align-items: center;
+
           img {
             margin-left: 9px;
             height: 10px;
@@ -109,6 +113,7 @@ header {
           display: none;
         }
       }
+
       .hoverDiscoverableBox {
         padding: 18px 15px;
         position: absolute;
@@ -119,6 +124,7 @@ header {
         flex-direction: column;
         display: none;
         background-color: white;
+
         a {
           font-weight: 600;
           width: max-content;
@@ -133,7 +139,16 @@ header {
       .hoverNavigationElement:hover .hoverDiscoverableBox {
         display: flex;
       }
+      .hoverNavigationElement:hover {
+        .normal {
+          display: none;
+        }
+        .blue {
+          display: unset;
+        }
+      }
       a {
+        font-weight: 900;
         margin: 0 12px;
         font-size: 18px;
         text-decoration: none;
@@ -149,6 +164,7 @@ header {
         padding: 15px 42px;
         border: none;
         border-radius: 100px;
+        font-size: 18px;
       }
       #get-in-touch-btn:hover {
         cursor: pointer;

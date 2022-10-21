@@ -6,6 +6,9 @@
   }
   .seo-hero {
     margin-top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .sub-hero {
     margin-top: 0;
@@ -47,6 +50,9 @@
 
 .e-commerce {
   section.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-top: 0;
     text-align: center;
     padding-right: 12px;

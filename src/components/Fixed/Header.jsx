@@ -53,9 +53,8 @@ function Header() {
           ></HoverNavigationElement>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/blog">Blog</Link>
-          <Link to="/contact">Contact</Link>
           <Link to="/contact">
-            <button id="get-in-touch-btn">Get in touch</button>
+            <button id="get-in-touch-btn">Contact</button>
           </Link>
         </BrowserView>
         <MobileView className="mobile-menu">
@@ -93,10 +92,7 @@ function Header() {
           Blog
         </Link>
         <Link onClick={handleChangeUrl} to="/contact">
-          Contact
-        </Link>
-        <Link onClick={handleChangeUrl} to="/contact">
-          <button className="get-in-touch-btn">Get in touch</button>
+          <button className="get-in-touch-btn">Contact</button>
         </Link>
       </MobileView>
     </header>

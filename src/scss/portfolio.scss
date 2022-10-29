@@ -181,12 +181,21 @@
   }
 }
 .portfolio {
-  .text {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    .left {
-      margin-right: 21px;
+  .hero {
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      h1 {
+        font-size: 60px;
+      }
+      p {
+        font-size: 30px;
+      }
+      .left {
+        margin-right: 21px;
+      }
     }
   }
 }

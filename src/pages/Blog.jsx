@@ -4,6 +4,7 @@ import BlogArticle from "../components/Sections/Blog/BlogArticle";
 import blogdata from "../blog/data/blogPosts";
 import { useState, useRef } from "react";
 import { Helmet } from "react-helmet";
+import alpaColors from "../img/alpa-rainbow-long.svg";
 
 const blogKeys = Object.keys(blogdata);
 function Blog() {
@@ -67,11 +68,14 @@ function Blog() {
         <title>Alpa Digital Agency | Blog</title>
       </Helmet>
       <section className="hero">
-        <div className="text">
+        <div className="text" style={{ backgroundImage: `url(${alpaColors})` }}>
           <h1>
             Our <span>Blog</span>
           </h1>
-          <p>Read our stories and learn more about our creative process.</p>
+          <p>
+            When it comes to design, development, and internet marketing, we are
+            always learning and sharing what we discover.
+          </p>
         </div>
         <Link to={"/blog/" + blogKeys[0]} className="showcase">
           <img src={bg} alt="Placeholder immage for blog article" />

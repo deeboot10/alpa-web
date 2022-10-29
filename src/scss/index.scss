@@ -25,7 +25,6 @@ body {
   }
   button {
     font-weight: 600;
-    border-radius: 100px;
   }
 }
 .grid {
@@ -46,7 +45,7 @@ footer {
     width: 0px;
     height: 2px;
     display: block;
-    background: rgb(0, 0, 0);
+    background: white;
     transition: 300ms;
   }
   a:hover:after {
@@ -58,7 +57,7 @@ header {
     display: none;
   }
   a:hover:after {
-    background-color: #0038ff;
+    background-color: white;
   }
 }
 footer {
@@ -72,9 +71,10 @@ footer {
 }
 
 header {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   position: relative;
-  height: 150px;
-  background-color: rgba(255, 255, 255, 0.8);
+  height: 90px;
+  background-color: #0038ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,11 +86,11 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1400px;
     flex-grow: 1;
-    padding: 0 30px;
+    padding: 0 15px;
     .navigation {
       grid-column: span 2;
       flex-grow: 1;
-      padding: 0 42px;
+      padding: 0 21px;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -102,7 +102,6 @@ header {
         a {
           display: flex;
           align-items: center;
-
           img {
             margin-left: 9px;
             height: 10px;
@@ -126,11 +125,15 @@ header {
         background-color: white;
 
         a {
+          color: black;
           font-weight: 600;
           width: max-content;
           min-width: 100%;
           margin: 9px 0;
           font-size: 18px;
+        }
+        a:hover {
+          color: rgba(0, 0, 0, 0.689);
         }
         a:last-child {
           margin-bottom: 0;
@@ -139,27 +142,19 @@ header {
       .hoverNavigationElement:hover .hoverDiscoverableBox {
         display: flex;
       }
-      .hoverNavigationElement:hover {
-        .normal {
-          display: none;
-        }
-        .blue {
-          display: unset;
-        }
-      }
       a {
         font-weight: 900;
         margin: 0 12px;
         font-size: 18px;
         text-decoration: none;
         transition: 300ms;
-        color: #0f0f0f;
+        color: white;
       }
       a:hover {
-        color: #0038ff;
+        color: rgb(214, 214, 214);
       }
       #get-in-touch-btn {
-        background-color: #0038ff;
+        background: linear-gradient(45deg, #7491ff, #0038ff);
         color: white;
         padding: 15px 42px;
         border: none;

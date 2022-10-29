@@ -1,6 +1,4 @@
 .blog {
-  background-color: #00168b;
-  color: white;
   .hero {
     min-height: calc(100vh - 90px);
     display: grid;
@@ -36,13 +34,13 @@
       }
     }
     .text {
-      background-color: #000c52;
+      background-position: center;
+      background-size: cover;
+      color: white;
       padding: 15vh 60px;
       font-size: 30px;
-      span {
-        color: #0038ff;
-      }
       p {
+        line-height: 1.6;
         font-size: 21px;
         font-weight: 600;
       }

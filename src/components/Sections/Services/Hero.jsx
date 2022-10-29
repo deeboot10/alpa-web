@@ -4,7 +4,7 @@ import blueArr from "../../../img/arrRightBlue.svg";
 import icon1 from "../../../img/servicesIllustration1.svg";
 import icon2 from "../../../img/servicesIllustration2.svg";
 import icon3 from "../../../img/servicesIllustration3.svg";
-import bg from "../../../img/aboutUsMainBg.webp";
+import bg from "../../../img/services-bg1.png";
 import { BrowserView, MobileView } from "react-device-detect";
 import ServicesSubHero from "../../Fixed/ServicesSubHero";
 

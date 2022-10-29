@@ -1,7 +1,7 @@
-import arr from "../img/arrRight.svg";
+import arr from "../img/arrRightWhite.svg";
 import arrWhite from "../img/arrRightWhite.svg";
 import { Link } from "react-router-dom";
-import bg from "../img/aboutUsMainBg.webp";
+import bg from "../img/services-bg4.webp";
 import WorkTogether from "../components/Fixed/WorkTogether";
 import { Helmet } from "react-helmet";
 import AllServices from "../components/Sections/Services/AllServices";

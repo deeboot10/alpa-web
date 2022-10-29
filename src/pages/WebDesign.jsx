@@ -1,14 +1,10 @@
 import { Link } from "react-router-dom";
-import bg from "../img/aboutUsMainBg.webp";
+import bg from "../img/services-bg3.webp";
 import arr from "../img/arrRight.svg";
 import img1 from "../img/servicesImg1.webp";
 import dots from "../img/dots.svg";
 import img from "../img/servicesImg2.webp";
 import img2 from "../img/servicesImg3.webp";
-import blueArr from "../img/arrRightBlue.svg";
-import icon1 from "../img/servicesIllustration1.svg";
-import icon2 from "../img/servicesIllustration2.svg";
-import icon3 from "../img/servicesIllustration3.svg";
 import { isMobile, BrowserView, MobileView } from "react-device-detect";
 import WorkTogether from "../components/Fixed/WorkTogether";
 import AllServices from "../components/Sections/Services/AllServices";

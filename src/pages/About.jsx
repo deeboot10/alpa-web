@@ -19,7 +19,7 @@ function About() {
         <h1>About Us</h1>
         <Link to="/contact">
           <button className="white-btn">
-            Get Started <img src={arr} alt="Arrow pointing to right"></img>
+            Get Started <img src={arrWhite} alt="Arrow pointing to right"></img>
           </button>
         </Link>
       </section>

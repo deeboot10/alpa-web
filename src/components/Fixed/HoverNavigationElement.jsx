@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import arrowDown from "../../img/arrowDown.svg";
+import arrowDown from "../../img/arrow-down-white.svg";
 import arrowDownBlue from "../../img/arrowDownBlue.svg";
 import plus from "../../img/plus.svg";
 import { isMobile } from "react-device-detect";

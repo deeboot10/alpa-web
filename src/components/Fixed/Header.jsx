@@ -1,4 +1,4 @@
-import logo from "../../img/logo.svg";
+import logo from "../../img/logo-white.svg";
 import menuIcon from "../../img/menu-icon.svg";
 import HoverNavigationElement from "./HoverNavigationElement";
 import { Link, useLocation } from "react-router-dom";

@@ -17,7 +17,9 @@ function Optimization() {
         </p>
         <div className="grid">
           <Link to="/services/web-design" className="item">
-            <img src={icon1} className="icon1" alt="Design illustration" />
+            <div className="img">
+              <img src={icon1} className="icon1" alt="Design illustration" />
+            </div>
             <h3>WEBSITE DESIGN</h3>
             <p>
               We believe that the right design following correct design patterns
@@ -26,7 +28,9 @@ function Optimization() {
             </p>
           </Link>
           <Link to="/services/seo" className="item">
-            <img src={icon2} className="icon1" alt="Design illustration" />
+            <div className="img">
+              <img src={icon2} className="icon1" alt="Design illustration" />
+            </div>
             <h3>SEO</h3>
             <p>
               All the work you put into your website would go in vain if no one
@@ -36,7 +40,9 @@ function Optimization() {
             </p>
           </Link>
           <Link to="/services/e-commerce" className="item">
-            <img src={icon3} className="icon1" alt="Design illustration" />
+            <div className="img">
+              <img src={icon3} className="icon1" alt="Design illustration" />
+            </div>
             <h3>E-COMMERCE</h3>
             <p>
               Online shopping is growing in popularity day by day. Make your
@@ -45,7 +51,9 @@ function Optimization() {
             </p>
           </Link>
           <Link to="/services/web-design" className="item">
-            <img src={icon4} className="icon1" alt="Design illustration" />
+            <div className="img">
+              <img src={icon4} className="icon1" alt="Design illustration" />
+            </div>
             <h3>BRAND STRATEGY</h3>
             <p>
               Make sure visitors in your area will be informed about your store.

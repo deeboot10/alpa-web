@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import bg from "../img/aboutUsMainBg.webp";
-import arr from "../img/arrRight.svg";
+import bg from "../img/services-bg2.webp";
+import arr from "../img/arrRightWhite.svg";
 import img1 from "../img/servicesImg1.webp";
 import dots from "../img/dots.svg";
 import img from "../img/servicesImg2.webp";

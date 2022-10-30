@@ -1,4 +1,4 @@
-import bg from "../img/aboutUsMainBg.webp";
+import bg from "../img/about-bg-high.webp";
 import Contact from "../components/Sections/Home/Contact";
 import { Helmet } from "react-helmet";
 function ContactPage() {

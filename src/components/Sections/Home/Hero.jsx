@@ -12,7 +12,7 @@ function Hero() {
       <div className="content">
         <div className="text">
           <h1>
-            Website & <span>Brand</span> <br />
+            Website Design & <span>Brand</span> <br />
             <span>Building</span> Agency
           </h1>
           <div className="buttons">

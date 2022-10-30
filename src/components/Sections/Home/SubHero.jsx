@@ -65,7 +65,7 @@ function SubHero() {
         </div>
         <div className="comment">
           <img className="avatar" src={avatar1} alt="Avatar" />
-          <span></span>
+          <span>Serpunk</span>
           <div className="stars">
             <img src={star} alt="Illustration of a star" />
             <img src={star} alt="Illustration of a star" />

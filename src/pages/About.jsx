@@ -1,7 +1,7 @@
 import arr from "../img/arrRight.svg";
 import arrWhite from "../img/arrRightWhite.svg";
 import { Link } from "react-router-dom";
-import bg from "../img/aboutUsMainBg.webp";
+import bg from "../img/about-bg-high.webp";
 import img1 from "../img/about1.webp";
 import img2 from "../img/about2.webp";
 import rectangle from "../img/blue-rectangle.svg";

@@ -1,5 +1,5 @@
 import logo from "../../img/logo-white.svg";
-import menuIcon from "../../img/menu-icon.svg";
+import menuIcon from "../../img/menu-icon-mobile-white.svg";
 import HoverNavigationElement from "./HoverNavigationElement";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -54,7 +54,7 @@ function Header() {
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/contact">
-            <button id="get-in-touch-btn">Contact</button>
+            <button id="get-in-touch-btn">Contact Us</button>
           </Link>
         </BrowserView>
         <MobileView className="mobile-menu">
@@ -92,7 +92,7 @@ function Header() {
           Blog
         </Link>
         <Link onClick={handleChangeUrl} to="/contact">
-          <button className="get-in-touch-btn">Contact</button>
+          <button className="get-in-touch-btn">Contact Us</button>
         </Link>
       </MobileView>
     </header>

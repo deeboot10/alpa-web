@@ -57,10 +57,10 @@ function WebDesign() {
                 </div>
                 <h3>BRANDING</h3>
                 <p>
-                  All the work you put into your website would go in vain if no
-                  one could see it, right? That is why we offer Search Engine
-                  Optimization services to make your website visible to users
-                  looking for services you offer.
+                  You've come to the correct spot if you're looking for the
+                  ideal balance of usefulness and captivating design. We create
+                  the combination of the two because we think that design
+                  without strategy is just decoration.
                 </p>
                 <Link to="/services/seo">
                   <img src={blueArr} alt="Blue arrow pointing to right" />
@@ -72,9 +72,10 @@ function WebDesign() {
                 </div>
                 <h3>SEO</h3>
                 <p>
-                  Online shopping is growing in popularity day by day. Make your
-                  business stand out in that field with our custom service and
-                  find your way to web customers all over the world.
+                  All the work you put into your website would go in vain if no
+                  one could see it, right? That is why we offer Search Engine
+                  Optimization services to make your website visible to users
+                  looking for services you offer.
                 </p>
                 <Link to="/services/e-commerce">
                   <img src={blueArr} alt="Blue arrow pointing to right" />

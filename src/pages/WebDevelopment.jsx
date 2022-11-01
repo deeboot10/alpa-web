@@ -37,9 +37,10 @@ function WebDevelopment() {
               </div>
               <h3>WEBSITE DEVELOPMENT</h3>
               <p>
-                We believe that the right design following correct design
-                patterns can provide a superior web experience for users. It is
-                our core principle to make meaningful design with passion.
+                Created with purpose! A well-optimized website needs a strong
+                basis. It will assist propel your organization to the top if you
+                realize how crucial it is to have a solid foundation on which to
+                build.
               </p>
               <Link to="/services/web-design">
                 <img src={blueArr} alt="Blue arrow pointing to right" />
@@ -51,10 +52,9 @@ function WebDevelopment() {
               </div>
               <h3>WEBSITE DESIGN</h3>
               <p>
-                All the work you put into your website would go in vain if no
-                one could see it, right? That is why we offer Search Engine
-                Optimization services to make your website visible to users
-                looking for services you offer.
+                We believe that the right design following correct design
+                patterns can provide a superior web experience for users. It is
+                our core principle to make meaningful design with passion.
               </p>
               <Link to="/services/seo">
                 <img src={blueArr} alt="Blue arrow pointing to right" />

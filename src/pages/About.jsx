@@ -1,4 +1,3 @@
-import arr from "../img/arrRight.svg";
 import arrWhite from "../img/arrRightWhite.svg";
 import { Link } from "react-router-dom";
 import bg from "../img/about-bg-high.webp";

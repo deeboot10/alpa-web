@@ -10,7 +10,7 @@ import color1 from "../img/portfolio-img/color1.svg";
 import logo2 from "../img/portfolio-img/logo2.svg";
 import bg2 from "../img/portfolio-img/bg2.webp";
 import color2 from "../img/portfolio-img/color2.svg";
-import logo3 from "../img/portfolio-img/logo3.png";
+import logo3 from "../img/portfolio-img/logo3.webp";
 import bg3 from "../img/portfolio-img/bg3.webp";
 import color3 from "../img/portfolio-img/color3.svg";
 import logo4 from "../img/portfolio-img/logo4.svg";
@@ -82,7 +82,7 @@ function Portoflio() {
           </div>
         </a>
         <a
-          href="https://mcmmcm-f1950.web.app/"
+          href="https://marusa-2d821.web.app/"
           target="_blank"
           className="item"
         >
